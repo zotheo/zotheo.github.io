@@ -1,6 +1,6 @@
-Project Proposal 
+##Project Proposal 
 
-Introduction to Research Question - ZF
+Introduction to Research Question
 For this project, our group will look at the reclamation of public space and the relationship it has to gentrification and displacement in Los Angeles. We plan to collect data on instances of the public reclaiming space through “unsanctioned” uses of the public realm, this could be; illegal street vending, unpermitted events like side shows and concerts, and/or public drinking over time and compare this to instances of gentrification and displacement. We are aiming to understand if decreases in instances of unsanctioned uses of the public realm are associated with the displacement of low-income and BIPOC residents in Los Angeles. 
 
 Why are we studying this? EG
