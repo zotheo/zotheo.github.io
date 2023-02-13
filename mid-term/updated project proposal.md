@@ -40,8 +40,8 @@ To narrow our scope a little further we used USC's Urban Displacement Porject's 
   - Impeding normal flow of traffic 
 - Relevance to our project: We will use this data to understand trends in citations for use of public space in neighborhoods experiencing change (as defined by our indicators.)  
 
-**LA Parks map**
-Countywide Parks and Open Space (Public - Hosted) | Countywide Parks and Open Space (Public - Hosted) | [County Of Los Angeles Enterprise GIS](https://egis-lacounty.hub.arcgis.com/)
+**LA Parks Map**
+- Source: Countywide Parks and Open Space | [County Of Los Angeles Enterprise GIS](https://egis-lacounty.hub.arcgis.com/)
 
 ### Displacement / Gentrification Indicators
 **Foreclosures**
