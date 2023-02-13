@@ -31,7 +31,7 @@ To narrow our scope a little further we used USC's Urban Displacement Porject's 
 
 ### Informal Use of Public Space 
 **Arrest Data LAPD**
-- Source: Los Angeles Police Department via City of Los Angeles Data Catalog 
+- Source: [Los Angeles Police Department via City of Los Angeles Data Catalog](https://data.lacity.org/Public-Safety/Arrest-Data-from-2010-to-2019/yru6-6re4) 
 - Description: This data set includes all arrest data between 2010 and 2019. There are specific arrest types that are relevant to our interest in use of public space. There are various types of arrests that will potentially be of interest to us including: 
   - Open alcoholic beverage in a public place/park 
   - Drinking in public 
@@ -40,33 +40,28 @@ To narrow our scope a little further we used USC's Urban Displacement Porject's 
   - Impeding normal flow of traffic 
 - Relevance to our project: We will use this data to understand trends in citations for use of public space in neighborhoods experiencing change (as defined by our indicators.)  
 
-**Street Vending Citations**
-- Source: Los Angeles Police Department via City of Los Angeles Data Catalog 
-- Description: This data includes citations for street vending (which is the charge 42.00BLAMC – Illegal Street/Sidewalk Sales) from 2010 to 2019. The data has both the area name and the cross streets where the citation was issued. We will need to geocode the cross streets for our use of this dataset. 
-- Relevance to our project: We will use this data to understand trends in vending citations in neighborhoods experiencing change (as defined by our indicators.)  
-
 **LA Parks map**
-Countywide Parks and Open Space (Public - Hosted) | Countywide Parks and Open Space (Public - Hosted) | County Of Los Angeles Enterprise GIS (arcgis.com)
+Countywide Parks and Open Space (Public - Hosted) | Countywide Parks and Open Space (Public - Hosted) | [County Of Los Angeles Enterprise GIS](https://egis-lacounty.hub.arcgis.com/)
 
 ### Displacement / Gentrification Indicators
 **Foreclosures**
-- Source: Neighborhood Data for Social Change (USC Price School)
+- Source: [Neighborhood Data for Social Change (USC Price School)](https://la.myneighborhooddata.org/2021/06/foreclosures/)
 - Description: This data source includes foreclosures on the neighborhood and Census Tract level in the City of Los Angeles between 2014 and 2021. The eviction data comes from Los Angeles Housing Department (LAHD) as point data and the Neighborhood Data for Social Change team geocoded the evictions to 2020 Census Tracts. 
 - Relevance to our project: We will use this data as an indicator of neighborhood change, specifically housing displacement. 
 
 **Evictions** 
-- Source: Neighborhood Data for Social Change (USC Price School)
+- Source: [Neighborhood Data for Social Change (USC Price School)](https://la.myneighborhooddata.org/2021/06/foreclosures/)
 - Description: This data source includes Ellis Act evictions on the neighborhood and Census Tract level in the City of Los Angeles between 2010 and 2021. The eviction data comes from LAHD as point data and the Neighborhood Data for Social Change team geocoded the evictions to 2020 Census Tracts. 
 - Relevance to our project: We will use this data as an indicator of neighborhood change, specifically housing displacement. 
 
 **Median Gross Rent**
-- Source: Neighborhood Data for Social Change (USC Price School)
+- Source: [Neighborhood Data for Social Change (USC Price School)](https://la.myneighborhooddata.org/2021/06/foreclosures/)
 - Description: This data source includes median rent on the neighborhood and Census Tract level in the City of Los Angeles between 2010 and 2021. The median rent metric includes the cost of rent plus utilities. The underlying data is from the American Community Survey 
 - Relevance to our project: We will use this data as an indicator of neighborhood change, specifically rising cost of living. 
 
 **Poverty data** 
-- County Of Los Angeles Enterprise GIS (arcgis.com)
-- Below Poverty (census tract) | Below Poverty (census tract) | County Of Los Angeles Enterprise GIS (arcgis.com)
+- Source: [County Of Los Angeles Enterprise GIS](https://egis-lacounty.hub.arcgis.com/)
+- Description: Below Poverty (census tract) | Below Poverty (census tract) | County Of Los Angeles Enterprise GIS (arcgis.com)
 
 
 ## Analysis
