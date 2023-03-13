@@ -1,0 +1,5061 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0bb03ff46fc97614626358062f4bde13 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0bb03ff46fc97614626358062f4bde13" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0bb03ff46fc97614626358062f4bde13 = L.map(
+                "map_0bb03ff46fc97614626358062f4bde13",
+                {
+                    center: [34.05349, -118.24532],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_38868a2fe7d1b499e98b0300c94164b2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var marker_e74f9e563c8a6af41f518f4f60298881 = L.marker(
+                [34.0258515, -118.3198034],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_88a9b17c8d478a8b6e40d3e64db1f26a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef410e8442d670ad7a69f2ee5ca97e47 = $(`<div id="html_ef410e8442d670ad7a69f2ee5ca97e47" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_88a9b17c8d478a8b6e40d3e64db1f26a.setContent(html_ef410e8442d670ad7a69f2ee5ca97e47);
+            
+        
+
+        marker_e74f9e563c8a6af41f518f4f60298881.bindPopup(popup_88a9b17c8d478a8b6e40d3e64db1f26a)
+        ;
+
+        
+    
+    
+            marker_e74f9e563c8a6af41f518f4f60298881.bindTooltip(
+                `<div>
+                     Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9963dc7a4d6a47b980ffb9730aba0d0 = L.marker(
+                [34.03032272, -118.3034231],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_48819f9fd6a7f73e52a102ec7624fb07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bbcdd37dfb2493ef0c265e7aea8a100 = $(`<div id="html_8bbcdd37dfb2493ef0c265e7aea8a100" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_48819f9fd6a7f73e52a102ec7624fb07.setContent(html_8bbcdd37dfb2493ef0c265e7aea8a100);
+            
+        
+
+        marker_c9963dc7a4d6a47b980ffb9730aba0d0.bindPopup(popup_48819f9fd6a7f73e52a102ec7624fb07)
+        ;
+
+        
+    
+    
+            marker_c9963dc7a4d6a47b980ffb9730aba0d0.bindTooltip(
+                `<div>
+                     Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26902cc3e8a52861df938c12ea014725 = L.marker(
+                [34.03489201, -118.3191787],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_6cfca1dd8559f33e22be09747ac5d7b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8651f9df5c7315b7ec8fd3e872aaf463 = $(`<div id="html_8651f9df5c7315b7ec8fd3e872aaf463" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_6cfca1dd8559f33e22be09747ac5d7b9.setContent(html_8651f9df5c7315b7ec8fd3e872aaf463);
+            
+        
+
+        marker_26902cc3e8a52861df938c12ea014725.bindPopup(popup_6cfca1dd8559f33e22be09747ac5d7b9)
+        ;
+
+        
+    
+    
+            marker_26902cc3e8a52861df938c12ea014725.bindTooltip(
+                `<div>
+                     Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cd4c8dc4f991370e291671bb00ac95c = L.marker(
+                [34.02322909, -118.303595],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_ad7a5147893f07153987d4b81d80677f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cbb1979bf63424ea55b5bc9833144bd = $(`<div id="html_2cbb1979bf63424ea55b5bc9833144bd" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_ad7a5147893f07153987d4b81d80677f.setContent(html_2cbb1979bf63424ea55b5bc9833144bd);
+            
+        
+
+        marker_8cd4c8dc4f991370e291671bb00ac95c.bindPopup(popup_ad7a5147893f07153987d4b81d80677f)
+        ;
+
+        
+    
+    
+            marker_8cd4c8dc4f991370e291671bb00ac95c.bindTooltip(
+                `<div>
+                     Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35b2525144554ad1e0a5d034819d0590 = L.marker(
+                [34.03392003, -118.3124031],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_26ef58e23515a59b93c0b771e2685d69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f23f07c9e64dcae8fc6b2fa340ea0a6 = $(`<div id="html_5f23f07c9e64dcae8fc6b2fa340ea0a6" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_26ef58e23515a59b93c0b771e2685d69.setContent(html_5f23f07c9e64dcae8fc6b2fa340ea0a6);
+            
+        
+
+        marker_35b2525144554ad1e0a5d034819d0590.bindPopup(popup_26ef58e23515a59b93c0b771e2685d69)
+        ;
+
+        
+    
+    
+            marker_35b2525144554ad1e0a5d034819d0590.bindTooltip(
+                `<div>
+                     Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0244f65647dc58dfa2aaf9bf8bd99b96 = L.marker(
+                [34.04015351, -118.328585],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_f2362f83bfe3fca4cdd3917475bcf08e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4807cda4db3b8cfdc78b95812d0d07d6 = $(`<div id="html_4807cda4db3b8cfdc78b95812d0d07d6" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_f2362f83bfe3fca4cdd3917475bcf08e.setContent(html_4807cda4db3b8cfdc78b95812d0d07d6);
+            
+        
+
+        marker_0244f65647dc58dfa2aaf9bf8bd99b96.bindPopup(popup_f2362f83bfe3fca4cdd3917475bcf08e)
+        ;
+
+        
+    
+    
+            marker_0244f65647dc58dfa2aaf9bf8bd99b96.bindTooltip(
+                `<div>
+                     Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5775252039a3b7a142ba896312ab6d4a = L.marker(
+                [34.03932392, -118.3004936],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_b3c95003489a4e70027cc53c33125541 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ca1a0bbad2c8a7cc384c92eee36f075 = $(`<div id="html_9ca1a0bbad2c8a7cc384c92eee36f075" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_b3c95003489a4e70027cc53c33125541.setContent(html_9ca1a0bbad2c8a7cc384c92eee36f075);
+            
+        
+
+        marker_5775252039a3b7a142ba896312ab6d4a.bindPopup(popup_b3c95003489a4e70027cc53c33125541)
+        ;
+
+        
+    
+    
+            marker_5775252039a3b7a142ba896312ab6d4a.bindTooltip(
+                `<div>
+                     Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41013e18e3de5e552c4bd87d26fc815d = L.marker(
+                [34.03518485, -118.3178673],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_24709f95924c0e59d48967d773f5d6b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be749f02315d1796c528c62e345978d7 = $(`<div id="html_be749f02315d1796c528c62e345978d7" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_24709f95924c0e59d48967d773f5d6b5.setContent(html_be749f02315d1796c528c62e345978d7);
+            
+        
+
+        marker_41013e18e3de5e552c4bd87d26fc815d.bindPopup(popup_24709f95924c0e59d48967d773f5d6b5)
+        ;
+
+        
+    
+    
+            marker_41013e18e3de5e552c4bd87d26fc815d.bindTooltip(
+                `<div>
+                     Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1efe6308d187e9363e646e6642e80881 = L.marker(
+                [34.07228703, -118.2148714],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_cc26fe13a2b8459a2b71f2ff83c2f7bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bb323dc525d69a0dc8855aeeb8cf7be = $(`<div id="html_0bb323dc525d69a0dc8855aeeb8cf7be" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_cc26fe13a2b8459a2b71f2ff83c2f7bb.setContent(html_0bb323dc525d69a0dc8855aeeb8cf7be);
+            
+        
+
+        marker_1efe6308d187e9363e646e6642e80881.bindPopup(popup_cc26fe13a2b8459a2b71f2ff83c2f7bb)
+        ;
+
+        
+    
+    
+            marker_1efe6308d187e9363e646e6642e80881.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94be9fe9ec82b48fc0f4e5bf46f1c529 = L.marker(
+                [34.09301892, -118.2070222],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_e6a15976b849a758fbc8bc1df9baaad2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b52d3e79dbe0c22d8b58b25bf8e8ec1 = $(`<div id="html_1b52d3e79dbe0c22d8b58b25bf8e8ec1" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_e6a15976b849a758fbc8bc1df9baaad2.setContent(html_1b52d3e79dbe0c22d8b58b25bf8e8ec1);
+            
+        
+
+        marker_94be9fe9ec82b48fc0f4e5bf46f1c529.bindPopup(popup_e6a15976b849a758fbc8bc1df9baaad2)
+        ;
+
+        
+    
+    
+            marker_94be9fe9ec82b48fc0f4e5bf46f1c529.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8118f38102a9e5f508d1999de7b6fd19 = L.marker(
+                [34.06662121, -118.2009429],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_052f2ad932680d763ae7424fceea5e9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a21de799cc37c46c7d8e721e9388cc6 = $(`<div id="html_7a21de799cc37c46c7d8e721e9388cc6" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_052f2ad932680d763ae7424fceea5e9f.setContent(html_7a21de799cc37c46c7d8e721e9388cc6);
+            
+        
+
+        marker_8118f38102a9e5f508d1999de7b6fd19.bindPopup(popup_052f2ad932680d763ae7424fceea5e9f)
+        ;
+
+        
+    
+    
+            marker_8118f38102a9e5f508d1999de7b6fd19.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_154b983d2cc39bf57a04ec61983b3d5a = L.marker(
+                [34.09563521, -118.2034178],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_b4df4b228f44267faa34d98573948a9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f965e30ccfa807ff1fa911143d2dd66 = $(`<div id="html_9f965e30ccfa807ff1fa911143d2dd66" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_b4df4b228f44267faa34d98573948a9d.setContent(html_9f965e30ccfa807ff1fa911143d2dd66);
+            
+        
+
+        marker_154b983d2cc39bf57a04ec61983b3d5a.bindPopup(popup_b4df4b228f44267faa34d98573948a9d)
+        ;
+
+        
+    
+    
+            marker_154b983d2cc39bf57a04ec61983b3d5a.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ed8d04d6e57bd92722d7ff60b1471d8 = L.marker(
+                [34.08680192, -118.2289197],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_9be30e584af927c2b60ac495f80b5da9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12b0df4c16d3a413921aca7fe06154a3 = $(`<div id="html_12b0df4c16d3a413921aca7fe06154a3" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_9be30e584af927c2b60ac495f80b5da9.setContent(html_12b0df4c16d3a413921aca7fe06154a3);
+            
+        
+
+        marker_7ed8d04d6e57bd92722d7ff60b1471d8.bindPopup(popup_9be30e584af927c2b60ac495f80b5da9)
+        ;
+
+        
+    
+    
+            marker_7ed8d04d6e57bd92722d7ff60b1471d8.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53f8a392c1b40587a74d2dd9c536334d = L.marker(
+                [34.08419639, -118.2284029],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_d617260827769787f7c08df9937921a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fab56a5dfcc955f1691208b8eb00293 = $(`<div id="html_6fab56a5dfcc955f1691208b8eb00293" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_d617260827769787f7c08df9937921a5.setContent(html_6fab56a5dfcc955f1691208b8eb00293);
+            
+        
+
+        marker_53f8a392c1b40587a74d2dd9c536334d.bindPopup(popup_d617260827769787f7c08df9937921a5)
+        ;
+
+        
+    
+    
+            marker_53f8a392c1b40587a74d2dd9c536334d.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1d04f0306d5a2570e68813cbef4910e = L.marker(
+                [34.08547196, -118.2295154],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_e6a86980ec1c1910b010b6d53b5decd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb1e1af3ea568b23cb45f02e3398abd8 = $(`<div id="html_bb1e1af3ea568b23cb45f02e3398abd8" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_e6a86980ec1c1910b010b6d53b5decd8.setContent(html_bb1e1af3ea568b23cb45f02e3398abd8);
+            
+        
+
+        marker_c1d04f0306d5a2570e68813cbef4910e.bindPopup(popup_e6a86980ec1c1910b010b6d53b5decd8)
+        ;
+
+        
+    
+    
+            marker_c1d04f0306d5a2570e68813cbef4910e.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17db4215664a22ac18cf71b0faa38e48 = L.marker(
+                [34.07068537, -118.2229882],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_79c39b0aa219bdcf28bf99231353a580 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79ae951ab1200d583e12f367eee4d08e = $(`<div id="html_79ae951ab1200d583e12f367eee4d08e" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_79c39b0aa219bdcf28bf99231353a580.setContent(html_79ae951ab1200d583e12f367eee4d08e);
+            
+        
+
+        marker_17db4215664a22ac18cf71b0faa38e48.bindPopup(popup_79c39b0aa219bdcf28bf99231353a580)
+        ;
+
+        
+    
+    
+            marker_17db4215664a22ac18cf71b0faa38e48.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c93aab17f82605bf9a04bf4172b6c09 = L.marker(
+                [34.08723143, -118.209897],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_9386b5ce04f6eba701810571534a3b4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddedc195c0fb2631d9c7639e834f33b7 = $(`<div id="html_ddedc195c0fb2631d9c7639e834f33b7" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_9386b5ce04f6eba701810571534a3b4b.setContent(html_ddedc195c0fb2631d9c7639e834f33b7);
+            
+        
+
+        marker_2c93aab17f82605bf9a04bf4172b6c09.bindPopup(popup_9386b5ce04f6eba701810571534a3b4b)
+        ;
+
+        
+    
+    
+            marker_2c93aab17f82605bf9a04bf4172b6c09.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e359fbc23fc6c9f16ff6a63c32d973fb = L.marker(
+                [34.09304819, -118.2005637],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_063f067aeb50ecb58e99eb49944cd185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_520ff1adbb824ef3e20ea87df39045af = $(`<div id="html_520ff1adbb824ef3e20ea87df39045af" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_063f067aeb50ecb58e99eb49944cd185.setContent(html_520ff1adbb824ef3e20ea87df39045af);
+            
+        
+
+        marker_e359fbc23fc6c9f16ff6a63c32d973fb.bindPopup(popup_063f067aeb50ecb58e99eb49944cd185)
+        ;
+
+        
+    
+    
+            marker_e359fbc23fc6c9f16ff6a63c32d973fb.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8dfb4baa9e80ffe8f6084f70c3f5147 = L.marker(
+                [34.07772191, -118.2062768],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_4f4c6a9f49ff1bd665f97637a6286ccf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_701c9c30b11c81d45bf686d713dca49a = $(`<div id="html_701c9c30b11c81d45bf686d713dca49a" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_4f4c6a9f49ff1bd665f97637a6286ccf.setContent(html_701c9c30b11c81d45bf686d713dca49a);
+            
+        
+
+        marker_b8dfb4baa9e80ffe8f6084f70c3f5147.bindPopup(popup_4f4c6a9f49ff1bd665f97637a6286ccf)
+        ;
+
+        
+    
+    
+            marker_b8dfb4baa9e80ffe8f6084f70c3f5147.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7db2c96da63befaed110fad1f8f116a1 = L.marker(
+                [34.08369292, -118.2197717],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_c49c439b907cd8cb5be94344dfc2c2d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27903627ca6f024dbab70e0dcf688963 = $(`<div id="html_27903627ca6f024dbab70e0dcf688963" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_c49c439b907cd8cb5be94344dfc2c2d5.setContent(html_27903627ca6f024dbab70e0dcf688963);
+            
+        
+
+        marker_7db2c96da63befaed110fad1f8f116a1.bindPopup(popup_c49c439b907cd8cb5be94344dfc2c2d5)
+        ;
+
+        
+    
+    
+            marker_7db2c96da63befaed110fad1f8f116a1.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4a1612bf1e6ae9bdfc07afb66c63ab4 = L.marker(
+                [34.0693831, -118.2233846],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_549cc85819f81dc7c2d4420f14ee8f45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c931814ff784483c13680786ab2af47 = $(`<div id="html_9c931814ff784483c13680786ab2af47" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_549cc85819f81dc7c2d4420f14ee8f45.setContent(html_9c931814ff784483c13680786ab2af47);
+            
+        
+
+        marker_e4a1612bf1e6ae9bdfc07afb66c63ab4.bindPopup(popup_549cc85819f81dc7c2d4420f14ee8f45)
+        ;
+
+        
+    
+    
+            marker_e4a1612bf1e6ae9bdfc07afb66c63ab4.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d04f2da647908f95f04ec282f30be97 = L.marker(
+                [34.07711477, -118.2250809],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_c03b0334e28bc181aeb45ed31cc77048 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2f75da43bcc747cde539ca6343397f2 = $(`<div id="html_d2f75da43bcc747cde539ca6343397f2" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_c03b0334e28bc181aeb45ed31cc77048.setContent(html_d2f75da43bcc747cde539ca6343397f2);
+            
+        
+
+        marker_7d04f2da647908f95f04ec282f30be97.bindPopup(popup_c03b0334e28bc181aeb45ed31cc77048)
+        ;
+
+        
+    
+    
+            marker_7d04f2da647908f95f04ec282f30be97.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af8b6cabd7bcab7f198c8cfdcc7ba164 = L.marker(
+                [34.07689801, -118.207543],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_b6b7063fe6ea0bc244a594ac9ac15cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8acaeb91d58c5b6fbd8eb4c36942d369 = $(`<div id="html_8acaeb91d58c5b6fbd8eb4c36942d369" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_b6b7063fe6ea0bc244a594ac9ac15cf3.setContent(html_8acaeb91d58c5b6fbd8eb4c36942d369);
+            
+        
+
+        marker_af8b6cabd7bcab7f198c8cfdcc7ba164.bindPopup(popup_b6b7063fe6ea0bc244a594ac9ac15cf3)
+        ;
+
+        
+    
+    
+            marker_af8b6cabd7bcab7f198c8cfdcc7ba164.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83a11bfad3bf46b768b6a88cc517aff9 = L.marker(
+                [34.08232159, -118.2201563],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_1dca958978987d73b44e1ce18f5b5411 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f9d521e126d67ade5ca08b8ec2309f0 = $(`<div id="html_7f9d521e126d67ade5ca08b8ec2309f0" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_1dca958978987d73b44e1ce18f5b5411.setContent(html_7f9d521e126d67ade5ca08b8ec2309f0);
+            
+        
+
+        marker_83a11bfad3bf46b768b6a88cc517aff9.bindPopup(popup_1dca958978987d73b44e1ce18f5b5411)
+        ;
+
+        
+    
+    
+            marker_83a11bfad3bf46b768b6a88cc517aff9.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c289ed6ff66d8bfe3042c7da9df7e41d = L.marker(
+                [34.07584242, -118.2114044],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_4dce9279fd18d12e405f771aead8a6a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_575bf9712dc8609d4d45e56c9c79c7c1 = $(`<div id="html_575bf9712dc8609d4d45e56c9c79c7c1" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_4dce9279fd18d12e405f771aead8a6a3.setContent(html_575bf9712dc8609d4d45e56c9c79c7c1);
+            
+        
+
+        marker_c289ed6ff66d8bfe3042c7da9df7e41d.bindPopup(popup_4dce9279fd18d12e405f771aead8a6a3)
+        ;
+
+        
+    
+    
+            marker_c289ed6ff66d8bfe3042c7da9df7e41d.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11128feb91a8243f8b74395e20985264 = L.marker(
+                [34.08480956, -118.2103113],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_4fd12b40d136d657d1808356bf969ada = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e99e19fbbfd4e52af8ba2299a1cd0f69 = $(`<div id="html_e99e19fbbfd4e52af8ba2299a1cd0f69" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_4fd12b40d136d657d1808356bf969ada.setContent(html_e99e19fbbfd4e52af8ba2299a1cd0f69);
+            
+        
+
+        marker_11128feb91a8243f8b74395e20985264.bindPopup(popup_4fd12b40d136d657d1808356bf969ada)
+        ;
+
+        
+    
+    
+            marker_11128feb91a8243f8b74395e20985264.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be03732f56a268d9969368316c14432f = L.marker(
+                [34.09693666, -118.2032169],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_9b3cc84220895a06641e4ba9952f8230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_965d1fe84cc7eb4c66144028c10e71bf = $(`<div id="html_965d1fe84cc7eb4c66144028c10e71bf" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_9b3cc84220895a06641e4ba9952f8230.setContent(html_965d1fe84cc7eb4c66144028c10e71bf);
+            
+        
+
+        marker_be03732f56a268d9969368316c14432f.bindPopup(popup_9b3cc84220895a06641e4ba9952f8230)
+        ;
+
+        
+    
+    
+            marker_be03732f56a268d9969368316c14432f.bindTooltip(
+                `<div>
+                     Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_244fa1ae2b57d3e6610cc9595a57fc49 = L.marker(
+                [34.08259128, -118.2388759],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_6b09a6ff5c2a4178f98b4be8235d855a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dede4b78f1bccd77bf786d7033ddf7a3 = $(`<div id="html_dede4b78f1bccd77bf786d7033ddf7a3" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_6b09a6ff5c2a4178f98b4be8235d855a.setContent(html_dede4b78f1bccd77bf786d7033ddf7a3);
+            
+        
+
+        marker_244fa1ae2b57d3e6610cc9595a57fc49.bindPopup(popup_6b09a6ff5c2a4178f98b4be8235d855a)
+        ;
+
+        
+    
+    
+            marker_244fa1ae2b57d3e6610cc9595a57fc49.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9e90c7a5d4d6c378792eceef65866dc = L.marker(
+                [34.05298571, -118.2435337],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_3abd382f90176d6b03c29147759198d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e67d0f1866c8a2376a45ecfe01481029 = $(`<div id="html_e67d0f1866c8a2376a45ecfe01481029" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_3abd382f90176d6b03c29147759198d9.setContent(html_e67d0f1866c8a2376a45ecfe01481029);
+            
+        
+
+        marker_f9e90c7a5d4d6c378792eceef65866dc.bindPopup(popup_3abd382f90176d6b03c29147759198d9)
+        ;
+
+        
+    
+    
+            marker_f9e90c7a5d4d6c378792eceef65866dc.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61b1694ba0e1ef05550ceb383f572c4c = L.marker(
+                [34.05586529, -118.2461272],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_01d8b1fca3887a2aa66a072094369491 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86a7a739243cfdcab81bcd2e5ce09ef1 = $(`<div id="html_86a7a739243cfdcab81bcd2e5ce09ef1" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_01d8b1fca3887a2aa66a072094369491.setContent(html_86a7a739243cfdcab81bcd2e5ce09ef1);
+            
+        
+
+        marker_61b1694ba0e1ef05550ceb383f572c4c.bindPopup(popup_01d8b1fca3887a2aa66a072094369491)
+        ;
+
+        
+    
+    
+            marker_61b1694ba0e1ef05550ceb383f572c4c.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_150e9a6c6cc8febe135455ed096f3356 = L.marker(
+                [34.05635746, -118.2382371],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_9f07ef1ad109a304aacb953148b85d3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8b24a2fda09492cd00e43aaf7771bc8 = $(`<div id="html_d8b24a2fda09492cd00e43aaf7771bc8" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_9f07ef1ad109a304aacb953148b85d3e.setContent(html_d8b24a2fda09492cd00e43aaf7771bc8);
+            
+        
+
+        marker_150e9a6c6cc8febe135455ed096f3356.bindPopup(popup_9f07ef1ad109a304aacb953148b85d3e)
+        ;
+
+        
+    
+    
+            marker_150e9a6c6cc8febe135455ed096f3356.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_388dddc447fa0d59ee54a5b66791c938 = L.marker(
+                [34.06415282, -118.2406435],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_5cae25021d569187e465cd4495ec132b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_545e30e8b7ab9385730a05e25051be61 = $(`<div id="html_545e30e8b7ab9385730a05e25051be61" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_5cae25021d569187e465cd4495ec132b.setContent(html_545e30e8b7ab9385730a05e25051be61);
+            
+        
+
+        marker_388dddc447fa0d59ee54a5b66791c938.bindPopup(popup_5cae25021d569187e465cd4495ec132b)
+        ;
+
+        
+    
+    
+            marker_388dddc447fa0d59ee54a5b66791c938.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be556c783724a2b768ad976d923ef348 = L.marker(
+                [34.06860065, -118.2312333],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_af95adffd7dbcfd169753e4e012f2ecb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9238d8bc379cec2620861f199fff0f40 = $(`<div id="html_9238d8bc379cec2620861f199fff0f40" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_af95adffd7dbcfd169753e4e012f2ecb.setContent(html_9238d8bc379cec2620861f199fff0f40);
+            
+        
+
+        marker_be556c783724a2b768ad976d923ef348.bindPopup(popup_af95adffd7dbcfd169753e4e012f2ecb)
+        ;
+
+        
+    
+    
+            marker_be556c783724a2b768ad976d923ef348.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b435802556f7677731cbce9ae8fec79d = L.marker(
+                [34.04957052, -118.2444109],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_dd2d9c95f716c38862301970ee33e832 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e4ef25b5b1a1a675ca0b8196bd11529 = $(`<div id="html_9e4ef25b5b1a1a675ca0b8196bd11529" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_dd2d9c95f716c38862301970ee33e832.setContent(html_9e4ef25b5b1a1a675ca0b8196bd11529);
+            
+        
+
+        marker_b435802556f7677731cbce9ae8fec79d.bindPopup(popup_dd2d9c95f716c38862301970ee33e832)
+        ;
+
+        
+    
+    
+            marker_b435802556f7677731cbce9ae8fec79d.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_944f493473ccc84e7916121f29f2a852 = L.marker(
+                [34.06096357, -118.2415994],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_0514b425dfb464233bc376a3a9e8e49c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac392b23e47a7db3e82813bd5fad44ca = $(`<div id="html_ac392b23e47a7db3e82813bd5fad44ca" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_0514b425dfb464233bc376a3a9e8e49c.setContent(html_ac392b23e47a7db3e82813bd5fad44ca);
+            
+        
+
+        marker_944f493473ccc84e7916121f29f2a852.bindPopup(popup_0514b425dfb464233bc376a3a9e8e49c)
+        ;
+
+        
+    
+    
+            marker_944f493473ccc84e7916121f29f2a852.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_475cda6a8bb8ff0f96a9694f3bf4a8d5 = L.marker(
+                [34.06394943, -118.2409149],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_972f49a049738c00cf5901b60209e1f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4eefa63c01ab70494d1f88a18b0d131 = $(`<div id="html_a4eefa63c01ab70494d1f88a18b0d131" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_972f49a049738c00cf5901b60209e1f5.setContent(html_a4eefa63c01ab70494d1f88a18b0d131);
+            
+        
+
+        marker_475cda6a8bb8ff0f96a9694f3bf4a8d5.bindPopup(popup_972f49a049738c00cf5901b60209e1f5)
+        ;
+
+        
+    
+    
+            marker_475cda6a8bb8ff0f96a9694f3bf4a8d5.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fe6f976b4e8f21b2a771219f8200375 = L.marker(
+                [34.05370573, -118.244616],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_bd1481522c7a50ae1f0a6b5a516fabfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_982672097cba14cba5fff98845e88b34 = $(`<div id="html_982672097cba14cba5fff98845e88b34" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_bd1481522c7a50ae1f0a6b5a516fabfc.setContent(html_982672097cba14cba5fff98845e88b34);
+            
+        
+
+        marker_1fe6f976b4e8f21b2a771219f8200375.bindPopup(popup_bd1481522c7a50ae1f0a6b5a516fabfc)
+        ;
+
+        
+    
+    
+            marker_1fe6f976b4e8f21b2a771219f8200375.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc01459b76928c6b5c86090236b81896 = L.marker(
+                [34.0514475, -118.2706605],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_21c1d625fd814d72a24a6c57fe8e525c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a39c87a942d0c8a4352b0f04978d200 = $(`<div id="html_3a39c87a942d0c8a4352b0f04978d200" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_21c1d625fd814d72a24a6c57fe8e525c.setContent(html_3a39c87a942d0c8a4352b0f04978d200);
+            
+        
+
+        marker_cc01459b76928c6b5c86090236b81896.bindPopup(popup_21c1d625fd814d72a24a6c57fe8e525c)
+        ;
+
+        
+    
+    
+            marker_cc01459b76928c6b5c86090236b81896.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d19d27d207d885c42bbac306a2711210 = L.marker(
+                [34.05799397, -118.2601917],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_a9ae5b52920707c1e878684883d2200d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2973fb761d15e37828ebcb3e64310cde = $(`<div id="html_2973fb761d15e37828ebcb3e64310cde" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_a9ae5b52920707c1e878684883d2200d.setContent(html_2973fb761d15e37828ebcb3e64310cde);
+            
+        
+
+        marker_d19d27d207d885c42bbac306a2711210.bindPopup(popup_a9ae5b52920707c1e878684883d2200d)
+        ;
+
+        
+    
+    
+            marker_d19d27d207d885c42bbac306a2711210.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1aa4692d04804a70489a2a98643b8728 = L.marker(
+                [34.07010949, -118.2487136],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_48707f2cafbc7739b5ff5cea3119b91d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_774c13d33cbecff0a431208fb551798d = $(`<div id="html_774c13d33cbecff0a431208fb551798d" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_48707f2cafbc7739b5ff5cea3119b91d.setContent(html_774c13d33cbecff0a431208fb551798d);
+            
+        
+
+        marker_1aa4692d04804a70489a2a98643b8728.bindPopup(popup_48707f2cafbc7739b5ff5cea3119b91d)
+        ;
+
+        
+    
+    
+            marker_1aa4692d04804a70489a2a98643b8728.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa05d4e108d96b990f479fdbabd80b47 = L.marker(
+                [34.08481628, -118.2817486],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_88f6ff06a3415e155613e129247894ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e873e139af5f6f1972e9da58f1b009d = $(`<div id="html_1e873e139af5f6f1972e9da58f1b009d" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_88f6ff06a3415e155613e129247894ff.setContent(html_1e873e139af5f6f1972e9da58f1b009d);
+            
+        
+
+        marker_aa05d4e108d96b990f479fdbabd80b47.bindPopup(popup_88f6ff06a3415e155613e129247894ff)
+        ;
+
+        
+    
+    
+            marker_aa05d4e108d96b990f479fdbabd80b47.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f94c8a9e58f5d38cc523c28313f057c = L.marker(
+                [34.09224274, -118.2663265],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_f28559f2ea5abd5907fe465f80369c92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_200ff36bc05011164d79f01cbb7fb771 = $(`<div id="html_200ff36bc05011164d79f01cbb7fb771" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_f28559f2ea5abd5907fe465f80369c92.setContent(html_200ff36bc05011164d79f01cbb7fb771);
+            
+        
+
+        marker_3f94c8a9e58f5d38cc523c28313f057c.bindPopup(popup_f28559f2ea5abd5907fe465f80369c92)
+        ;
+
+        
+    
+    
+            marker_3f94c8a9e58f5d38cc523c28313f057c.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be0b063b4a7aafbe63144f48f093e023 = L.marker(
+                [34.07286319, -118.2604624],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_247fa0cfffd32f9407eb1a5fbd8dbd40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87e7bec4b96683ab9b2ba3c3dadc84a2 = $(`<div id="html_87e7bec4b96683ab9b2ba3c3dadc84a2" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_247fa0cfffd32f9407eb1a5fbd8dbd40.setContent(html_87e7bec4b96683ab9b2ba3c3dadc84a2);
+            
+        
+
+        marker_be0b063b4a7aafbe63144f48f093e023.bindPopup(popup_247fa0cfffd32f9407eb1a5fbd8dbd40)
+        ;
+
+        
+    
+    
+            marker_be0b063b4a7aafbe63144f48f093e023.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24d9ebd25d76f6a042290708f992aba3 = L.marker(
+                [34.06206457, -118.2571199],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_6aab984b324e26d16a72e34584b5aaf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f20ef7533ee54d1c887d62b42413f13 = $(`<div id="html_3f20ef7533ee54d1c887d62b42413f13" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_6aab984b324e26d16a72e34584b5aaf8.setContent(html_3f20ef7533ee54d1c887d62b42413f13);
+            
+        
+
+        marker_24d9ebd25d76f6a042290708f992aba3.bindPopup(popup_6aab984b324e26d16a72e34584b5aaf8)
+        ;
+
+        
+    
+    
+            marker_24d9ebd25d76f6a042290708f992aba3.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b88c4654a2c20aeabf54dd517ff82c95 = L.marker(
+                [34.06592741, -118.2591445],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_a52b094854fc5d5bb49b9a2779f8d02f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b5c53c14445217558595b8d409d1d74 = $(`<div id="html_8b5c53c14445217558595b8d409d1d74" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_a52b094854fc5d5bb49b9a2779f8d02f.setContent(html_8b5c53c14445217558595b8d409d1d74);
+            
+        
+
+        marker_b88c4654a2c20aeabf54dd517ff82c95.bindPopup(popup_a52b094854fc5d5bb49b9a2779f8d02f)
+        ;
+
+        
+    
+    
+            marker_b88c4654a2c20aeabf54dd517ff82c95.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05f34e57b7e1eed6e8523406fd46852f = L.marker(
+                [34.0641686, -118.2619027],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_30e30411392e7c733171178cdd9609e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ad8248f5a535f006385494dacf0de94 = $(`<div id="html_8ad8248f5a535f006385494dacf0de94" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_30e30411392e7c733171178cdd9609e8.setContent(html_8ad8248f5a535f006385494dacf0de94);
+            
+        
+
+        marker_05f34e57b7e1eed6e8523406fd46852f.bindPopup(popup_30e30411392e7c733171178cdd9609e8)
+        ;
+
+        
+    
+    
+            marker_05f34e57b7e1eed6e8523406fd46852f.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_311328743081dc0d04a4a2431286b027 = L.marker(
+                [34.07394241, -118.2495833],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_a4a11b73cdaa0010034f65d471975bea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f205f4192c29a463eef9e1525b9ca45 = $(`<div id="html_2f205f4192c29a463eef9e1525b9ca45" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_a4a11b73cdaa0010034f65d471975bea.setContent(html_2f205f4192c29a463eef9e1525b9ca45);
+            
+        
+
+        marker_311328743081dc0d04a4a2431286b027.bindPopup(popup_a4a11b73cdaa0010034f65d471975bea)
+        ;
+
+        
+    
+    
+            marker_311328743081dc0d04a4a2431286b027.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e20924d23153f91646c258a05f834121 = L.marker(
+                [34.06117927, -118.2570205],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_0f30c6f3b236eaf1d244653a9439e11c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_586bd7ee50299630fc2489583536aeb4 = $(`<div id="html_586bd7ee50299630fc2489583536aeb4" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_0f30c6f3b236eaf1d244653a9439e11c.setContent(html_586bd7ee50299630fc2489583536aeb4);
+            
+        
+
+        marker_e20924d23153f91646c258a05f834121.bindPopup(popup_0f30c6f3b236eaf1d244653a9439e11c)
+        ;
+
+        
+    
+    
+            marker_e20924d23153f91646c258a05f834121.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfa171e37daf67315ffa7d14c1bf3761 = L.marker(
+                [34.06909049, -118.2707182],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_8236ad5bb361b717252dcb82f86175f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24aa6ff68b4939f977f8ad4ecff5e87f = $(`<div id="html_24aa6ff68b4939f977f8ad4ecff5e87f" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_8236ad5bb361b717252dcb82f86175f6.setContent(html_24aa6ff68b4939f977f8ad4ecff5e87f);
+            
+        
+
+        marker_bfa171e37daf67315ffa7d14c1bf3761.bindPopup(popup_8236ad5bb361b717252dcb82f86175f6)
+        ;
+
+        
+    
+    
+            marker_bfa171e37daf67315ffa7d14c1bf3761.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9b839e8169c201e5d82bb710e132e92 = L.marker(
+                [34.06453983, -118.25902],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_5755bc972ff1fe645903f1d7bec247d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1679d6f9538a12fa978557fbe5957e17 = $(`<div id="html_1679d6f9538a12fa978557fbe5957e17" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_5755bc972ff1fe645903f1d7bec247d0.setContent(html_1679d6f9538a12fa978557fbe5957e17);
+            
+        
+
+        marker_d9b839e8169c201e5d82bb710e132e92.bindPopup(popup_5755bc972ff1fe645903f1d7bec247d0)
+        ;
+
+        
+    
+    
+            marker_d9b839e8169c201e5d82bb710e132e92.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1c6497e1cd2f9de501bcf5a1410793d = L.marker(
+                [34.08626747, -118.275836],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_3de55bbe2beb411d4eb27eb1382ac721 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e1c4bd3e40a57dff7fc2076733d939a = $(`<div id="html_3e1c4bd3e40a57dff7fc2076733d939a" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_3de55bbe2beb411d4eb27eb1382ac721.setContent(html_3e1c4bd3e40a57dff7fc2076733d939a);
+            
+        
+
+        marker_c1c6497e1cd2f9de501bcf5a1410793d.bindPopup(popup_3de55bbe2beb411d4eb27eb1382ac721)
+        ;
+
+        
+    
+    
+            marker_c1c6497e1cd2f9de501bcf5a1410793d.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3109bbca12f6a559898271d4a63c598 = L.marker(
+                [34.08266091, -118.2748928],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_8cd968452998cf87e4b8005c1b0faefb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2aa2bbe7494ec4af73bcd47db101571 = $(`<div id="html_b2aa2bbe7494ec4af73bcd47db101571" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_8cd968452998cf87e4b8005c1b0faefb.setContent(html_b2aa2bbe7494ec4af73bcd47db101571);
+            
+        
+
+        marker_c3109bbca12f6a559898271d4a63c598.bindPopup(popup_8cd968452998cf87e4b8005c1b0faefb)
+        ;
+
+        
+    
+    
+            marker_c3109bbca12f6a559898271d4a63c598.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b993fa0f20d39a032018dfe8c8d7480a = L.marker(
+                [34.06552288, -118.2593009],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_d4f69bbbc910d013b937d0e5c973422a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_605b57bfd3bf2d099630e0414a531ddd = $(`<div id="html_605b57bfd3bf2d099630e0414a531ddd" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_d4f69bbbc910d013b937d0e5c973422a.setContent(html_605b57bfd3bf2d099630e0414a531ddd);
+            
+        
+
+        marker_b993fa0f20d39a032018dfe8c8d7480a.bindPopup(popup_d4f69bbbc910d013b937d0e5c973422a)
+        ;
+
+        
+    
+    
+            marker_b993fa0f20d39a032018dfe8c8d7480a.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a60f3a0704d382f339ad7cafe1dfcc29 = L.marker(
+                [34.06376989, -118.2646873],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_c33231bf63a31e1bd29a4fbbce56a6af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d8e319ce461163354e9e8638f4ce883 = $(`<div id="html_4d8e319ce461163354e9e8638f4ce883" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_c33231bf63a31e1bd29a4fbbce56a6af.setContent(html_4d8e319ce461163354e9e8638f4ce883);
+            
+        
+
+        marker_a60f3a0704d382f339ad7cafe1dfcc29.bindPopup(popup_c33231bf63a31e1bd29a4fbbce56a6af)
+        ;
+
+        
+    
+    
+            marker_a60f3a0704d382f339ad7cafe1dfcc29.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f219651be0d83ea5759914ee889f88ed = L.marker(
+                [34.0624238, -118.2840348],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_7d2e39cbad1e7f9b2e6b9e3ef4875f67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_252113bf968e73f316a00c5ea94412da = $(`<div id="html_252113bf968e73f316a00c5ea94412da" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_7d2e39cbad1e7f9b2e6b9e3ef4875f67.setContent(html_252113bf968e73f316a00c5ea94412da);
+            
+        
+
+        marker_f219651be0d83ea5759914ee889f88ed.bindPopup(popup_7d2e39cbad1e7f9b2e6b9e3ef4875f67)
+        ;
+
+        
+    
+    
+            marker_f219651be0d83ea5759914ee889f88ed.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_629a4cb0d79684b4d9b50395a3fd735a = L.marker(
+                [34.05884542, -118.2776672],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_f487ee0ae51d5e3a3f104034b9e166ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dff9caea5030cfe7c899f04c4801e974 = $(`<div id="html_dff9caea5030cfe7c899f04c4801e974" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_f487ee0ae51d5e3a3f104034b9e166ab.setContent(html_dff9caea5030cfe7c899f04c4801e974);
+            
+        
+
+        marker_629a4cb0d79684b4d9b50395a3fd735a.bindPopup(popup_f487ee0ae51d5e3a3f104034b9e166ab)
+        ;
+
+        
+    
+    
+            marker_629a4cb0d79684b4d9b50395a3fd735a.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fab69007b949a7c9b55c562022eb200d = L.marker(
+                [34.05279209, -118.2766672],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_ee525d42155c581b1f7268aaef69fe9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b469b2345ce12108bc7a4a2bbf2192e1 = $(`<div id="html_b469b2345ce12108bc7a4a2bbf2192e1" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_ee525d42155c581b1f7268aaef69fe9d.setContent(html_b469b2345ce12108bc7a4a2bbf2192e1);
+            
+        
+
+        marker_fab69007b949a7c9b55c562022eb200d.bindPopup(popup_ee525d42155c581b1f7268aaef69fe9d)
+        ;
+
+        
+    
+    
+            marker_fab69007b949a7c9b55c562022eb200d.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7633e86eaaadda48f1fab7f4a4670184 = L.marker(
+                [34.06607408, -118.2831625],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_8f0ee7f2eada25fd2ee4675e9e4c8504 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74d139f745995678bfe77dbc75dedc0f = $(`<div id="html_74d139f745995678bfe77dbc75dedc0f" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_8f0ee7f2eada25fd2ee4675e9e4c8504.setContent(html_74d139f745995678bfe77dbc75dedc0f);
+            
+        
+
+        marker_7633e86eaaadda48f1fab7f4a4670184.bindPopup(popup_8f0ee7f2eada25fd2ee4675e9e4c8504)
+        ;
+
+        
+    
+    
+            marker_7633e86eaaadda48f1fab7f4a4670184.bindTooltip(
+                `<div>
+                     WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6608b04887c6c8769d6ae053aa69da98 = L.marker(
+                [34.03837, -118.2046527],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_df5ca3accd9a222080c44191df8ef5e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4c6d135e4bd56a69d620916e0dbc158 = $(`<div id="html_f4c6d135e4bd56a69d620916e0dbc158" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_df5ca3accd9a222080c44191df8ef5e5.setContent(html_f4c6d135e4bd56a69d620916e0dbc158);
+            
+        
+
+        marker_6608b04887c6c8769d6ae053aa69da98.bindPopup(popup_df5ca3accd9a222080c44191df8ef5e5)
+        ;
+
+        
+    
+    
+            marker_6608b04887c6c8769d6ae053aa69da98.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_519a272a19428051fad9dad29052ecac = L.marker(
+                [34.05939811, -118.2017916],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_d999271036a76b4e4d09e1bfaf24a74c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b445beffed8128813658246da87e7835 = $(`<div id="html_b445beffed8128813658246da87e7835" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_d999271036a76b4e4d09e1bfaf24a74c.setContent(html_b445beffed8128813658246da87e7835);
+            
+        
+
+        marker_519a272a19428051fad9dad29052ecac.bindPopup(popup_d999271036a76b4e4d09e1bfaf24a74c)
+        ;
+
+        
+    
+    
+            marker_519a272a19428051fad9dad29052ecac.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3176b96cc08ebf506f2d4acdff59e8cb = L.marker(
+                [34.05888419, -118.1951296],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_11426559e7ec197d53b72490744e0615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04f403538bcee77d8790914734e4b5eb = $(`<div id="html_04f403538bcee77d8790914734e4b5eb" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_11426559e7ec197d53b72490744e0615.setContent(html_04f403538bcee77d8790914734e4b5eb);
+            
+        
+
+        marker_3176b96cc08ebf506f2d4acdff59e8cb.bindPopup(popup_11426559e7ec197d53b72490744e0615)
+        ;
+
+        
+    
+    
+            marker_3176b96cc08ebf506f2d4acdff59e8cb.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb81d9a25b1e6d41d01af4ff1883e818 = L.marker(
+                [34.04003071, -118.2178459],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_75a085eab3759b51e638397668997891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c6a42b52f14d90cd5e9a3b4291334eb = $(`<div id="html_8c6a42b52f14d90cd5e9a3b4291334eb" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_75a085eab3759b51e638397668997891.setContent(html_8c6a42b52f14d90cd5e9a3b4291334eb);
+            
+        
+
+        marker_eb81d9a25b1e6d41d01af4ff1883e818.bindPopup(popup_75a085eab3759b51e638397668997891)
+        ;
+
+        
+    
+    
+            marker_eb81d9a25b1e6d41d01af4ff1883e818.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2c2ef0973906ca38b25df68c884edc8 = L.marker(
+                [34.04641268, -118.2223405],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_b01f4368492b7fb8aee2a567251b516e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24e0c9f6e0363a5306d28109712fac85 = $(`<div id="html_24e0c9f6e0363a5306d28109712fac85" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_b01f4368492b7fb8aee2a567251b516e.setContent(html_24e0c9f6e0363a5306d28109712fac85);
+            
+        
+
+        marker_a2c2ef0973906ca38b25df68c884edc8.bindPopup(popup_b01f4368492b7fb8aee2a567251b516e)
+        ;
+
+        
+    
+    
+            marker_a2c2ef0973906ca38b25df68c884edc8.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0f44be024a23ffc43adcfaccd02639a = L.marker(
+                [34.05367178, -118.2175777],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_01c9cc570c9307577b56fc152c27828b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c990723a689ab24019ec64c95d20187a = $(`<div id="html_c990723a689ab24019ec64c95d20187a" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_01c9cc570c9307577b56fc152c27828b.setContent(html_c990723a689ab24019ec64c95d20187a);
+            
+        
+
+        marker_f0f44be024a23ffc43adcfaccd02639a.bindPopup(popup_01c9cc570c9307577b56fc152c27828b)
+        ;
+
+        
+    
+    
+            marker_f0f44be024a23ffc43adcfaccd02639a.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80284b3cb3b64b7321e5862cccaa0375 = L.marker(
+                [34.05640401, -118.1958666],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_9e14b3402ab6cecc293006364f7045eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a5920ea0b34d6b0b21a27962f27a625 = $(`<div id="html_1a5920ea0b34d6b0b21a27962f27a625" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_9e14b3402ab6cecc293006364f7045eb.setContent(html_1a5920ea0b34d6b0b21a27962f27a625);
+            
+        
+
+        marker_80284b3cb3b64b7321e5862cccaa0375.bindPopup(popup_9e14b3402ab6cecc293006364f7045eb)
+        ;
+
+        
+    
+    
+            marker_80284b3cb3b64b7321e5862cccaa0375.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98b171c3ff849cccc47e072336487724 = L.marker(
+                [34.04457345, -118.2121481],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_c81be3716b7a45a0ff76499971551809 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5463be4fdf68afce52e2a87fd57c414f = $(`<div id="html_5463be4fdf68afce52e2a87fd57c414f" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_c81be3716b7a45a0ff76499971551809.setContent(html_5463be4fdf68afce52e2a87fd57c414f);
+            
+        
+
+        marker_98b171c3ff849cccc47e072336487724.bindPopup(popup_c81be3716b7a45a0ff76499971551809)
+        ;
+
+        
+    
+    
+            marker_98b171c3ff849cccc47e072336487724.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f654fcbc47342b838318ad9c93e8507 = L.marker(
+                [34.05107668, -118.1978709],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_ad4341f7e8a732cc58e275aefa8016e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6b672dbf8dbf8d8bfc702e773072414 = $(`<div id="html_b6b672dbf8dbf8d8bfc702e773072414" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_ad4341f7e8a732cc58e275aefa8016e8.setContent(html_b6b672dbf8dbf8d8bfc702e773072414);
+            
+        
+
+        marker_4f654fcbc47342b838318ad9c93e8507.bindPopup(popup_ad4341f7e8a732cc58e275aefa8016e8)
+        ;
+
+        
+    
+    
+            marker_4f654fcbc47342b838318ad9c93e8507.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10e1371a32d90bfb48d43590bf1a2a04 = L.marker(
+                [34.05277959, -118.2124774],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_e339e7102134ac9f23c4a13b2ed81db1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6be37fc9378a1fd68bef8606611270cd = $(`<div id="html_6be37fc9378a1fd68bef8606611270cd" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_e339e7102134ac9f23c4a13b2ed81db1.setContent(html_6be37fc9378a1fd68bef8606611270cd);
+            
+        
+
+        marker_10e1371a32d90bfb48d43590bf1a2a04.bindPopup(popup_e339e7102134ac9f23c4a13b2ed81db1)
+        ;
+
+        
+    
+    
+            marker_10e1371a32d90bfb48d43590bf1a2a04.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_575c2ff793a7df9687d8b19b51c3fa71 = L.marker(
+                [34.05932031, -118.2087255],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_608946d0546e3f1acec15110dbbeb9dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9fbacff34d33f2b862c2606cac400d2 = $(`<div id="html_a9fbacff34d33f2b862c2606cac400d2" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_608946d0546e3f1acec15110dbbeb9dd.setContent(html_a9fbacff34d33f2b862c2606cac400d2);
+            
+        
+
+        marker_575c2ff793a7df9687d8b19b51c3fa71.bindPopup(popup_608946d0546e3f1acec15110dbbeb9dd)
+        ;
+
+        
+    
+    
+            marker_575c2ff793a7df9687d8b19b51c3fa71.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfa16eac98752d028b5226007059c439 = L.marker(
+                [34.05232583, -118.2226705],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_bfa28de7757e044ee3195074e0741a0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_613f7baae193dff540a4697e865da9a4 = $(`<div id="html_613f7baae193dff540a4697e865da9a4" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_bfa28de7757e044ee3195074e0741a0a.setContent(html_613f7baae193dff540a4697e865da9a4);
+            
+        
+
+        marker_dfa16eac98752d028b5226007059c439.bindPopup(popup_bfa28de7757e044ee3195074e0741a0a)
+        ;
+
+        
+    
+    
+            marker_dfa16eac98752d028b5226007059c439.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_249b942d97a4b7c9e5dccd0ff676f92e = L.marker(
+                [34.03947563, -118.2104897],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_bd5b26183f64944aae3f77e87250094d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c17438e4f8fd7a10b48008e66fc8857e = $(`<div id="html_c17438e4f8fd7a10b48008e66fc8857e" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_bd5b26183f64944aae3f77e87250094d.setContent(html_c17438e4f8fd7a10b48008e66fc8857e);
+            
+        
+
+        marker_249b942d97a4b7c9e5dccd0ff676f92e.bindPopup(popup_bd5b26183f64944aae3f77e87250094d)
+        ;
+
+        
+    
+    
+            marker_249b942d97a4b7c9e5dccd0ff676f92e.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_522480a4fb9ed75561ad28167ebdacfa = L.marker(
+                [34.04342025, -118.2235827],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_f01270ba6cec358dd254cddb3dd0232e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f043efa07c64ff5ac54aaa9b1da1bd2a = $(`<div id="html_f043efa07c64ff5ac54aaa9b1da1bd2a" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_f01270ba6cec358dd254cddb3dd0232e.setContent(html_f043efa07c64ff5ac54aaa9b1da1bd2a);
+            
+        
+
+        marker_522480a4fb9ed75561ad28167ebdacfa.bindPopup(popup_f01270ba6cec358dd254cddb3dd0232e)
+        ;
+
+        
+    
+    
+            marker_522480a4fb9ed75561ad28167ebdacfa.bindTooltip(
+                `<div>
+                     Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bff1a55276332e7e62cb94672c67859 = L.marker(
+                [34.10042046, -118.2941722],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_d8393461de5de3fa6689cb19e93339fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbaf48c063d88eaf79e2b3a359d2beb7 = $(`<div id="html_dbaf48c063d88eaf79e2b3a359d2beb7" style="width: 100.0%; height: 100.0%;">Los Feliz</div>`)[0];
+                popup_d8393461de5de3fa6689cb19e93339fc.setContent(html_dbaf48c063d88eaf79e2b3a359d2beb7);
+            
+        
+
+        marker_3bff1a55276332e7e62cb94672c67859.bindPopup(popup_d8393461de5de3fa6689cb19e93339fc)
+        ;
+
+        
+    
+    
+            marker_3bff1a55276332e7e62cb94672c67859.bindTooltip(
+                `<div>
+                     Los Feliz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f105e3606b3cf31fa86952831629ad0b = L.marker(
+                [34.13547266, -118.298554],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_ee349a7acf23e0bce2a2917ac2558f0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a16fa04f5296bc9be818cca7bc6a6de2 = $(`<div id="html_a16fa04f5296bc9be818cca7bc6a6de2" style="width: 100.0%; height: 100.0%;">Los Feliz</div>`)[0];
+                popup_ee349a7acf23e0bce2a2917ac2558f0f.setContent(html_a16fa04f5296bc9be818cca7bc6a6de2);
+            
+        
+
+        marker_f105e3606b3cf31fa86952831629ad0b.bindPopup(popup_ee349a7acf23e0bce2a2917ac2558f0f)
+        ;
+
+        
+    
+    
+            marker_f105e3606b3cf31fa86952831629ad0b.bindTooltip(
+                `<div>
+                     Los Feliz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8ece46e6b2c0d7a0ccce3d9406d5882 = L.marker(
+                [34.15441095, -118.3077203],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_8e2ac8b1607612978b9383bc6aaf4a55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_707cc9f0eb01112fb5918d3a9ef6de7e = $(`<div id="html_707cc9f0eb01112fb5918d3a9ef6de7e" style="width: 100.0%; height: 100.0%;">Los Feliz</div>`)[0];
+                popup_8e2ac8b1607612978b9383bc6aaf4a55.setContent(html_707cc9f0eb01112fb5918d3a9ef6de7e);
+            
+        
+
+        marker_e8ece46e6b2c0d7a0ccce3d9406d5882.bindPopup(popup_8e2ac8b1607612978b9383bc6aaf4a55)
+        ;
+
+        
+    
+    
+            marker_e8ece46e6b2c0d7a0ccce3d9406d5882.bindTooltip(
+                `<div>
+                     Los Feliz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92b956e1c78275eefc2dd77eb32ae0c1 = L.marker(
+                [34.06372964, -118.3568904],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_d5c3a6360c8afb67091cf27f6cbc7933 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8c767aa49ca0096f5a922b4ecf215fe = $(`<div id="html_c8c767aa49ca0096f5a922b4ecf215fe" style="width: 100.0%; height: 100.0%;">FairFax</div>`)[0];
+                popup_d5c3a6360c8afb67091cf27f6cbc7933.setContent(html_c8c767aa49ca0096f5a922b4ecf215fe);
+            
+        
+
+        marker_92b956e1c78275eefc2dd77eb32ae0c1.bindPopup(popup_d5c3a6360c8afb67091cf27f6cbc7933)
+        ;
+
+        
+    
+    
+            marker_92b956e1c78275eefc2dd77eb32ae0c1.bindTooltip(
+                `<div>
+                     FairFax
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a32572497b43bb34e8e3e54f75d9569e = L.marker(
+                [34.07333388, -118.3549849],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_0f71b8f565be666e9267c6d305df149b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc4d15d2c20ee80d7b892f5b8a3cba78 = $(`<div id="html_fc4d15d2c20ee80d7b892f5b8a3cba78" style="width: 100.0%; height: 100.0%;">FairFax</div>`)[0];
+                popup_0f71b8f565be666e9267c6d305df149b.setContent(html_fc4d15d2c20ee80d7b892f5b8a3cba78);
+            
+        
+
+        marker_a32572497b43bb34e8e3e54f75d9569e.bindPopup(popup_0f71b8f565be666e9267c6d305df149b)
+        ;
+
+        
+    
+    
+            marker_a32572497b43bb34e8e3e54f75d9569e.bindTooltip(
+                `<div>
+                     FairFax
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_671e3af73b3f136f281bbe79bb382327 = L.marker(
+                [34.08039635, -118.361323],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+        var popup_89d13d91050e772236ec96a5eab60068 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09f22819bd2021def8a1a7f183a05ee4 = $(`<div id="html_09f22819bd2021def8a1a7f183a05ee4" style="width: 100.0%; height: 100.0%;">FairFax</div>`)[0];
+                popup_89d13d91050e772236ec96a5eab60068.setContent(html_09f22819bd2021def8a1a7f183a05ee4);
+            
+        
+
+        marker_671e3af73b3f136f281bbe79bb382327.bindPopup(popup_89d13d91050e772236ec96a5eab60068)
+        ;
+
+        
+    
+    
+            marker_671e3af73b3f136f281bbe79bb382327.bindTooltip(
+                `<div>
+                     FairFax
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b373a3ec913cba990903feb0e88bade = L.marker(
+                [34.0258515, -118.3198034],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_8fe910c561747bc9e3e00064c51b4104 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5b373a3ec913cba990903feb0e88bade.setIcon(icon_8fe910c561747bc9e3e00064c51b4104);
+        
+    
+        var popup_8692199fafddef39ecc1cf7be98f46ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32ae2f84ee7b616e60c294bd8d3fd65d = $(`<div id="html_32ae2f84ee7b616e60c294bd8d3fd65d" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_8692199fafddef39ecc1cf7be98f46ec.setContent(html_32ae2f84ee7b616e60c294bd8d3fd65d);
+            
+        
+
+        marker_5b373a3ec913cba990903feb0e88bade.bindPopup(popup_8692199fafddef39ecc1cf7be98f46ec)
+        ;
+
+        
+    
+    
+            marker_5b373a3ec913cba990903feb0e88bade.bindTooltip(
+                `<div>
+                     Leslie N. Shaw Park PARK_NAME: Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d66d683d410695f6a0f0ba58ea27c539 = L.marker(
+                [34.03032272, -118.3034231],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_80a4dbb5538111ec865a109c2640b519 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d66d683d410695f6a0f0ba58ea27c539.setIcon(icon_80a4dbb5538111ec865a109c2640b519);
+        
+    
+        var popup_132969e45d26b6b18fbe186362c8f9cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_466d72bf06ba7df830173e124f24ce5f = $(`<div id="html_466d72bf06ba7df830173e124f24ce5f" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_132969e45d26b6b18fbe186362c8f9cd.setContent(html_466d72bf06ba7df830173e124f24ce5f);
+            
+        
+
+        marker_d66d683d410695f6a0f0ba58ea27c539.bindPopup(popup_132969e45d26b6b18fbe186362c8f9cd)
+        ;
+
+        
+    
+    
+            marker_d66d683d410695f6a0f0ba58ea27c539.bindTooltip(
+                `<div>
+                     Loren Miller Park PARK_NAME: Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d592ba685bbd106afc2be64f150dc90b = L.marker(
+                [34.03489201, -118.3191787],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_5f67954c84d36d16e27ea89ef69d090f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d592ba685bbd106afc2be64f150dc90b.setIcon(icon_5f67954c84d36d16e27ea89ef69d090f);
+        
+    
+        var popup_82025d44b2df45971ae33b65064dec1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20ba64afbd0324cf891d9026d3686988 = $(`<div id="html_20ba64afbd0324cf891d9026d3686988" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_82025d44b2df45971ae33b65064dec1a.setContent(html_20ba64afbd0324cf891d9026d3686988);
+            
+        
+
+        marker_d592ba685bbd106afc2be64f150dc90b.bindPopup(popup_82025d44b2df45971ae33b65064dec1a)
+        ;
+
+        
+    
+    
+            marker_d592ba685bbd106afc2be64f150dc90b.bindTooltip(
+                `<div>
+                     Benny H. Potter West Adams Ave Memorial Park PARK_NAME: Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c9accc85791c7acf8dfdc99f0582b29 = L.marker(
+                [34.02322909, -118.303595],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_192821ca50087ba0f0b412d82d9a2f6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6c9accc85791c7acf8dfdc99f0582b29.setIcon(icon_192821ca50087ba0f0b412d82d9a2f6a);
+        
+    
+        var popup_7c2785c188139c0487e8cebe0f1fcbbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbd53dbba36723825e5b5ae7ac573e49 = $(`<div id="html_cbd53dbba36723825e5b5ae7ac573e49" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_7c2785c188139c0487e8cebe0f1fcbbd.setContent(html_cbd53dbba36723825e5b5ae7ac573e49);
+            
+        
+
+        marker_6c9accc85791c7acf8dfdc99f0582b29.bindPopup(popup_7c2785c188139c0487e8cebe0f1fcbbd)
+        ;
+
+        
+    
+    
+            marker_6c9accc85791c7acf8dfdc99f0582b29.bindTooltip(
+                `<div>
+                     Denker Rec. Center PARK_NAME: Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e875951bec58d5d6fddfd251dc3d3fed = L.marker(
+                [34.03392003, -118.3124031],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_2d5db073653f37a43db7b05bb66cbeb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e875951bec58d5d6fddfd251dc3d3fed.setIcon(icon_2d5db073653f37a43db7b05bb66cbeb3);
+        
+    
+        var popup_c67efcd997fa2fd31b2c4aec7c5d5503 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7a130b5d5840a4c4f2ee88b18f6f769 = $(`<div id="html_c7a130b5d5840a4c4f2ee88b18f6f769" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_c67efcd997fa2fd31b2c4aec7c5d5503.setContent(html_c7a130b5d5840a4c4f2ee88b18f6f769);
+            
+        
+
+        marker_e875951bec58d5d6fddfd251dc3d3fed.bindPopup(popup_c67efcd997fa2fd31b2c4aec7c5d5503)
+        ;
+
+        
+    
+    
+            marker_e875951bec58d5d6fddfd251dc3d3fed.bindTooltip(
+                `<div>
+                     Gramercy Park PARK_NAME: Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af09490bd0f681449bbf943bf9220c53 = L.marker(
+                [34.04015351, -118.328585],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_8596c4a261b832e58500917257dfe017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_af09490bd0f681449bbf943bf9220c53.setIcon(icon_8596c4a261b832e58500917257dfe017);
+        
+    
+        var popup_dbe43612269cc5c64a910fd2027cdf41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8fbd5043b8ee7a5ac342b9ccc014df1 = $(`<div id="html_c8fbd5043b8ee7a5ac342b9ccc014df1" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_dbe43612269cc5c64a910fd2027cdf41.setContent(html_c8fbd5043b8ee7a5ac342b9ccc014df1);
+            
+        
+
+        marker_af09490bd0f681449bbf943bf9220c53.bindPopup(popup_dbe43612269cc5c64a910fd2027cdf41)
+        ;
+
+        
+    
+    
+            marker_af09490bd0f681449bbf943bf9220c53.bindTooltip(
+                `<div>
+                     Washington Irvin Pocket Park PARK_NAME: Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4109b7166feaba79235e644d2368bdbb = L.marker(
+                [34.03932392, -118.3004936],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_c13bb6e2801d6864ba967e34d70c854b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4109b7166feaba79235e644d2368bdbb.setIcon(icon_c13bb6e2801d6864ba967e34d70c854b);
+        
+    
+        var popup_d7d3b9d77e65bfa0cb20982a2e30fb33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5eac86f689ec14091a04519e91666a02 = $(`<div id="html_5eac86f689ec14091a04519e91666a02" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_d7d3b9d77e65bfa0cb20982a2e30fb33.setContent(html_5eac86f689ec14091a04519e91666a02);
+            
+        
+
+        marker_4109b7166feaba79235e644d2368bdbb.bindPopup(popup_d7d3b9d77e65bfa0cb20982a2e30fb33)
+        ;
+
+        
+    
+    
+            marker_4109b7166feaba79235e644d2368bdbb.bindTooltip(
+                `<div>
+                     Normandie and Cordova Park PARK_NAME: Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebb2b0e331c4d0d1d657ffe033f1fd8c = L.marker(
+                [34.03518485, -118.3178673],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_d7881897737ef699a62581be49ca7204 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ebb2b0e331c4d0d1d657ffe033f1fd8c.setIcon(icon_d7881897737ef699a62581be49ca7204);
+        
+    
+        var popup_20c0b98b6eaa155c2173ee5a9c6a2bf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fc31539c5cdb66548af7f5522710b55 = $(`<div id="html_9fc31539c5cdb66548af7f5522710b55" style="width: 100.0%; height: 100.0%;">Jefferson Park</div>`)[0];
+                popup_20c0b98b6eaa155c2173ee5a9c6a2bf3.setContent(html_9fc31539c5cdb66548af7f5522710b55);
+            
+        
+
+        marker_ebb2b0e331c4d0d1d657ffe033f1fd8c.bindPopup(popup_20c0b98b6eaa155c2173ee5a9c6a2bf3)
+        ;
+
+        
+    
+    
+            marker_ebb2b0e331c4d0d1d657ffe033f1fd8c.bindTooltip(
+                `<div>
+                     South Seas House Park PARK_NAME: Jefferson Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e621d6737aff8bf393bd4d4c92d95abe = L.marker(
+                [34.07228703, -118.2148714],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_22e7ea8f06376008924adb58131d4ed6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e621d6737aff8bf393bd4d4c92d95abe.setIcon(icon_22e7ea8f06376008924adb58131d4ed6);
+        
+    
+        var popup_2d50b114df4f9901af51ea1979a04905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ba879bf6fa5e8ceb3657332c570d1f6 = $(`<div id="html_0ba879bf6fa5e8ceb3657332c570d1f6" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_2d50b114df4f9901af51ea1979a04905.setContent(html_0ba879bf6fa5e8ceb3657332c570d1f6);
+            
+        
+
+        marker_e621d6737aff8bf393bd4d4c92d95abe.bindPopup(popup_2d50b114df4f9901af51ea1979a04905)
+        ;
+
+        
+    
+    
+            marker_e621d6737aff8bf393bd4d4c92d95abe.bindTooltip(
+                `<div>
+                     Lincoln Heights Rec. Center PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c57364d36f9e1b6f767d34ab882dc214 = L.marker(
+                [34.09301892, -118.2070222],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_aeb8d7c83ea85c08c25157ba0de6e6e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c57364d36f9e1b6f767d34ab882dc214.setIcon(icon_aeb8d7c83ea85c08c25157ba0de6e6e5);
+        
+    
+        var popup_ed98f271e4430fe9bcfb82c435a3e88e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b865c606f88aa8079f0fc0c5e2afb3d = $(`<div id="html_9b865c606f88aa8079f0fc0c5e2afb3d" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_ed98f271e4430fe9bcfb82c435a3e88e.setContent(html_9b865c606f88aa8079f0fc0c5e2afb3d);
+            
+        
+
+        marker_c57364d36f9e1b6f767d34ab882dc214.bindPopup(popup_ed98f271e4430fe9bcfb82c435a3e88e)
+        ;
+
+        
+    
+    
+            marker_c57364d36f9e1b6f767d34ab882dc214.bindTooltip(
+                `<div>
+                     Charles F. Lummis Home PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc3877bcce70d825b88f6ee682abb264 = L.marker(
+                [34.06662121, -118.2009429],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_8c5c00418d2f6a5fac780384dc59380c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cc3877bcce70d825b88f6ee682abb264.setIcon(icon_8c5c00418d2f6a5fac780384dc59380c);
+        
+    
+        var popup_43aa1ee527d7e30d7841c9b3661b609b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e612a908aab6bb428245b7b46ac39726 = $(`<div id="html_e612a908aab6bb428245b7b46ac39726" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_43aa1ee527d7e30d7841c9b3661b609b.setContent(html_e612a908aab6bb428245b7b46ac39726);
+            
+        
+
+        marker_cc3877bcce70d825b88f6ee682abb264.bindPopup(popup_43aa1ee527d7e30d7841c9b3661b609b)
+        ;
+
+        
+    
+    
+            marker_cc3877bcce70d825b88f6ee682abb264.bindTooltip(
+                `<div>
+                     Lincoln Park (City of Los Angeles) PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0f275f6ad6701da266d33d946247814 = L.marker(
+                [34.09563521, -118.2034178],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_fa520cf7ccf47e80236f07023816b312 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f0f275f6ad6701da266d33d946247814.setIcon(icon_fa520cf7ccf47e80236f07023816b312);
+        
+    
+        var popup_60d1679d980c238c68e29ad12a926e43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbdb0867a7b49c7925f961ea024a1fa1 = $(`<div id="html_fbdb0867a7b49c7925f961ea024a1fa1" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_60d1679d980c238c68e29ad12a926e43.setContent(html_fbdb0867a7b49c7925f961ea024a1fa1);
+            
+        
+
+        marker_f0f275f6ad6701da266d33d946247814.bindPopup(popup_60d1679d980c238c68e29ad12a926e43)
+        ;
+
+        
+    
+    
+            marker_f0f275f6ad6701da266d33d946247814.bindTooltip(
+                `<div>
+                     Arroyo Seco PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c8fd226f19e516ec7e5828fc7bc62e2 = L.marker(
+                [34.08680192, -118.2289197],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_fb1ba516b4d187d5619a4053e1c6c769 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5c8fd226f19e516ec7e5828fc7bc62e2.setIcon(icon_fb1ba516b4d187d5619a4053e1c6c769);
+        
+    
+        var popup_a729b55a557b9c54e1ad6b781da3462a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c57da1266720c822ac2498fdd3a1f03 = $(`<div id="html_5c57da1266720c822ac2498fdd3a1f03" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_a729b55a557b9c54e1ad6b781da3462a.setContent(html_5c57da1266720c822ac2498fdd3a1f03);
+            
+        
+
+        marker_5c8fd226f19e516ec7e5828fc7bc62e2.bindPopup(popup_a729b55a557b9c54e1ad6b781da3462a)
+        ;
+
+        
+    
+    
+            marker_5c8fd226f19e516ec7e5828fc7bc62e2.bindTooltip(
+                `<div>
+                     Steelhead Park PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66ec5c1d02e0058505cc29683db9d586 = L.marker(
+                [34.08419639, -118.2284029],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_ffa3cfe341c8687ec78a43ca37112494 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_66ec5c1d02e0058505cc29683db9d586.setIcon(icon_ffa3cfe341c8687ec78a43ca37112494);
+        
+    
+        var popup_889bad2949f9c0270dfeaf4da06eacf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5448fc3fcf3c1987ba3b6d50d74712fc = $(`<div id="html_5448fc3fcf3c1987ba3b6d50d74712fc" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_889bad2949f9c0270dfeaf4da06eacf2.setContent(html_5448fc3fcf3c1987ba3b6d50d74712fc);
+            
+        
+
+        marker_66ec5c1d02e0058505cc29683db9d586.bindPopup(popup_889bad2949f9c0270dfeaf4da06eacf2)
+        ;
+
+        
+    
+    
+            marker_66ec5c1d02e0058505cc29683db9d586.bindTooltip(
+                `<div>
+                     Egret Park PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80802163e265081259dfae5862839c43 = L.marker(
+                [34.08547196, -118.2295154],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_1f95ef880d85e9a131a818b4ef8952a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_80802163e265081259dfae5862839c43.setIcon(icon_1f95ef880d85e9a131a818b4ef8952a8);
+        
+    
+        var popup_980b1a20b1ce15d88fc5d042cf005269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0943c29b802fa7ede089aa12c65476f = $(`<div id="html_e0943c29b802fa7ede089aa12c65476f" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_980b1a20b1ce15d88fc5d042cf005269.setContent(html_e0943c29b802fa7ede089aa12c65476f);
+            
+        
+
+        marker_80802163e265081259dfae5862839c43.bindPopup(popup_980b1a20b1ce15d88fc5d042cf005269)
+        ;
+
+        
+    
+    
+            marker_80802163e265081259dfae5862839c43.bindTooltip(
+                `<div>
+                     Oso Park PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc2ca1d31c277464a18f9a230f038548 = L.marker(
+                [34.07068537, -118.2229882],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_8649cc6a4820fa806e16d73c6af5b7a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bc2ca1d31c277464a18f9a230f038548.setIcon(icon_8649cc6a4820fa806e16d73c6af5b7a5);
+        
+    
+        var popup_c88fff3705ba63fef46f8a2da4994c33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e37aef170daf1ad332fe3711e471af39 = $(`<div id="html_e37aef170daf1ad332fe3711e471af39" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_c88fff3705ba63fef46f8a2da4994c33.setContent(html_e37aef170daf1ad332fe3711e471af39);
+            
+        
+
+        marker_bc2ca1d31c277464a18f9a230f038548.bindPopup(popup_c88fff3705ba63fef46f8a2da4994c33)
+        ;
+
+        
+    
+    
+            marker_bc2ca1d31c277464a18f9a230f038548.bindTooltip(
+                `<div>
+                     Downey Playground and Rec. Center PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef98012012eafdfd0a1fbd200261dd12 = L.marker(
+                [34.08723143, -118.209897],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_b12439ccc0bf3ed311104f4a65635979 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ef98012012eafdfd0a1fbd200261dd12.setIcon(icon_b12439ccc0bf3ed311104f4a65635979);
+        
+    
+        var popup_9993cafe7e2374ec0822ce1e4a64fdff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0643882cd61d6999f964760411402c88 = $(`<div id="html_0643882cd61d6999f964760411402c88" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_9993cafe7e2374ec0822ce1e4a64fdff.setContent(html_0643882cd61d6999f964760411402c88);
+            
+        
+
+        marker_ef98012012eafdfd0a1fbd200261dd12.bindPopup(popup_9993cafe7e2374ec0822ce1e4a64fdff)
+        ;
+
+        
+    
+    
+            marker_ef98012012eafdfd0a1fbd200261dd12.bindTooltip(
+                `<div>
+                     Heritage Square PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54281548baf2f0ba2f50f98c48ee4763 = L.marker(
+                [34.09304819, -118.2005637],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_c75f41614d7568f8efede1664a8fd52d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_54281548baf2f0ba2f50f98c48ee4763.setIcon(icon_c75f41614d7568f8efede1664a8fd52d);
+        
+    
+        var popup_f09164bd5d98bfd49989c81c4ffd2076 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23407fea678749322b359f33c5d2f1b6 = $(`<div id="html_23407fea678749322b359f33c5d2f1b6" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_f09164bd5d98bfd49989c81c4ffd2076.setContent(html_23407fea678749322b359f33c5d2f1b6);
+            
+        
+
+        marker_54281548baf2f0ba2f50f98c48ee4763.bindPopup(popup_f09164bd5d98bfd49989c81c4ffd2076)
+        ;
+
+        
+    
+    
+            marker_54281548baf2f0ba2f50f98c48ee4763.bindTooltip(
+                `<div>
+                     Montecito Heights Open Space PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a3bc527f766be8c5cd4940bb7918b2d = L.marker(
+                [34.07772191, -118.2062768],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_2d9802cd78bf2e062e40b924204263e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7a3bc527f766be8c5cd4940bb7918b2d.setIcon(icon_2d9802cd78bf2e062e40b924204263e2);
+        
+    
+        var popup_f0716c1ad223680244d1cb99b9274690 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1649ca1c6a62aef7869f0d9ba678eee = $(`<div id="html_c1649ca1c6a62aef7869f0d9ba678eee" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_f0716c1ad223680244d1cb99b9274690.setContent(html_c1649ca1c6a62aef7869f0d9ba678eee);
+            
+        
+
+        marker_7a3bc527f766be8c5cd4940bb7918b2d.bindPopup(popup_f0716c1ad223680244d1cb99b9274690)
+        ;
+
+        
+    
+    
+            marker_7a3bc527f766be8c5cd4940bb7918b2d.bindTooltip(
+                `<div>
+                     Ela Park PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c08bf1c83d95835deb7088cba09296e5 = L.marker(
+                [34.08369292, -118.2197717],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_faf6fd26b8fd0297bad56facdbb730ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c08bf1c83d95835deb7088cba09296e5.setIcon(icon_faf6fd26b8fd0297bad56facdbb730ff);
+        
+    
+        var popup_154038ae62216bc882d8d1f35e0181f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40110df8f8c8447faec3505e48473b30 = $(`<div id="html_40110df8f8c8447faec3505e48473b30" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_154038ae62216bc882d8d1f35e0181f0.setContent(html_40110df8f8c8447faec3505e48473b30);
+            
+        
+
+        marker_c08bf1c83d95835deb7088cba09296e5.bindPopup(popup_154038ae62216bc882d8d1f35e0181f0)
+        ;
+
+        
+    
+    
+            marker_c08bf1c83d95835deb7088cba09296e5.bindTooltip(
+                `<div>
+                     Arroyo Seco (No Public Access) PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66a9fac550751d08a9e6c33dc1f44a91 = L.marker(
+                [34.0693831, -118.2233846],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_ebe0d9fa5a853dbeebb68dfa0c548809 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_66a9fac550751d08a9e6c33dc1f44a91.setIcon(icon_ebe0d9fa5a853dbeebb68dfa0c548809);
+        
+    
+        var popup_4e54db53bf84df1e7ff082a5b0cd2397 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fa3293f333de014a166d5dfd22a0122 = $(`<div id="html_8fa3293f333de014a166d5dfd22a0122" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_4e54db53bf84df1e7ff082a5b0cd2397.setContent(html_8fa3293f333de014a166d5dfd22a0122);
+            
+        
+
+        marker_66a9fac550751d08a9e6c33dc1f44a91.bindPopup(popup_4e54db53bf84df1e7ff082a5b0cd2397)
+        ;
+
+        
+    
+    
+            marker_66a9fac550751d08a9e6c33dc1f44a91.bindTooltip(
+                `<div>
+                     Albion Riverside Park PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d2e41189c9b737778025cf301223fba = L.marker(
+                [34.07711477, -118.2250809],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_6d65621039d8ee170a18319fea726532 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2d2e41189c9b737778025cf301223fba.setIcon(icon_6d65621039d8ee170a18319fea726532);
+        
+    
+        var popup_95b0d61f2b39a1165492f4318ed3485e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_884b382308918129fdfd9f4f814a5959 = $(`<div id="html_884b382308918129fdfd9f4f814a5959" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_95b0d61f2b39a1165492f4318ed3485e.setContent(html_884b382308918129fdfd9f4f814a5959);
+            
+        
+
+        marker_2d2e41189c9b737778025cf301223fba.bindPopup(popup_95b0d61f2b39a1165492f4318ed3485e)
+        ;
+
+        
+    
+    
+            marker_2d2e41189c9b737778025cf301223fba.bindTooltip(
+                `<div>
+                     L.A. Youth Athletic Club PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e4afa0efe235f81f0a74054f52ff76f = L.marker(
+                [34.07689801, -118.207543],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_8f2e8ee7e86fd4374dc7f436f2e47040 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4e4afa0efe235f81f0a74054f52ff76f.setIcon(icon_8f2e8ee7e86fd4374dc7f436f2e47040);
+        
+    
+        var popup_20d7c941f2f885a7d08982a89764ee39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c7dbe9ab980ffe4d24e3d87af15299a = $(`<div id="html_8c7dbe9ab980ffe4d24e3d87af15299a" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_20d7c941f2f885a7d08982a89764ee39.setContent(html_8c7dbe9ab980ffe4d24e3d87af15299a);
+            
+        
+
+        marker_4e4afa0efe235f81f0a74054f52ff76f.bindPopup(popup_20d7c941f2f885a7d08982a89764ee39)
+        ;
+
+        
+    
+    
+            marker_4e4afa0efe235f81f0a74054f52ff76f.bindTooltip(
+                `<div>
+                     East Los Angeles Park PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b802fc013e4f29e572a0a533f29c1819 = L.marker(
+                [34.08232159, -118.2201563],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_645e6207853a4f771d41eda4978c7290 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b802fc013e4f29e572a0a533f29c1819.setIcon(icon_645e6207853a4f771d41eda4978c7290);
+        
+    
+        var popup_95f9896d4a3533b014a41d0dbe4ae52b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c158e847c1b0372f9c21d6ece90d6d19 = $(`<div id="html_c158e847c1b0372f9c21d6ece90d6d19" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_95f9896d4a3533b014a41d0dbe4ae52b.setContent(html_c158e847c1b0372f9c21d6ece90d6d19);
+            
+        
+
+        marker_b802fc013e4f29e572a0a533f29c1819.bindPopup(popup_95f9896d4a3533b014a41d0dbe4ae52b)
+        ;
+
+        
+    
+    
+            marker_b802fc013e4f29e572a0a533f29c1819.bindTooltip(
+                `<div>
+                     Lacy Street Neighborhood Park PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04f705442cb63baa5baa4be7ad0755e4 = L.marker(
+                [34.07584242, -118.2114044],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_ce044e0e689909e7b690e042d162674f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_04f705442cb63baa5baa4be7ad0755e4.setIcon(icon_ce044e0e689909e7b690e042d162674f);
+        
+    
+        var popup_699a6f9f4c0de230392a0bcc8ce47a73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1313c4bed4480e9dc9bdf10e97262b1 = $(`<div id="html_e1313c4bed4480e9dc9bdf10e97262b1" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_699a6f9f4c0de230392a0bcc8ce47a73.setContent(html_e1313c4bed4480e9dc9bdf10e97262b1);
+            
+        
+
+        marker_04f705442cb63baa5baa4be7ad0755e4.bindPopup(popup_699a6f9f4c0de230392a0bcc8ce47a73)
+        ;
+
+        
+    
+    
+            marker_04f705442cb63baa5baa4be7ad0755e4.bindTooltip(
+                `<div>
+                     Lincoln Heights Youth Center PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45d711535f184157122789f28cdc4144 = L.marker(
+                [34.08480956, -118.2103113],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_4b62a8196139acb5e90b180b37794190 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_45d711535f184157122789f28cdc4144.setIcon(icon_4b62a8196139acb5e90b180b37794190);
+        
+    
+        var popup_41fa2584ff946166ca7b854c44178c30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0df652584c25c73d038ccb0ee508a45b = $(`<div id="html_0df652584c25c73d038ccb0ee508a45b" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_41fa2584ff946166ca7b854c44178c30.setContent(html_0df652584c25c73d038ccb0ee508a45b);
+            
+        
+
+        marker_45d711535f184157122789f28cdc4144.bindPopup(popup_41fa2584ff946166ca7b854c44178c30)
+        ;
+
+        
+    
+    
+            marker_45d711535f184157122789f28cdc4144.bindTooltip(
+                `<div>
+                     Mount Olympus Park PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41f25baf80e46ed2acee2142a34eda23 = L.marker(
+                [34.09693666, -118.2032169],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_fde8e5a6b756dda1897a691a75608e04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_41f25baf80e46ed2acee2142a34eda23.setIcon(icon_fde8e5a6b756dda1897a691a75608e04);
+        
+    
+        var popup_e91c7cb17ffd2ef743d5549ee0fbba3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_567fe4629190af2cc2932cc5b4b62e94 = $(`<div id="html_567fe4629190af2cc2932cc5b4b62e94" style="width: 100.0%; height: 100.0%;">Lincoln Heights</div>`)[0];
+                popup_e91c7cb17ffd2ef743d5549ee0fbba3f.setContent(html_567fe4629190af2cc2932cc5b4b62e94);
+            
+        
+
+        marker_41f25baf80e46ed2acee2142a34eda23.bindPopup(popup_e91c7cb17ffd2ef743d5549ee0fbba3f)
+        ;
+
+        
+    
+    
+            marker_41f25baf80e46ed2acee2142a34eda23.bindTooltip(
+                `<div>
+                     Montecito Heights Recreation Center PARK_NAME: Lincoln Heights
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aae6dc5576822042cd41b88b60480e92 = L.marker(
+                [34.08259128, -118.2388759],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_0aba71363e5df55900283cf210c2711f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aae6dc5576822042cd41b88b60480e92.setIcon(icon_0aba71363e5df55900283cf210c2711f);
+        
+    
+        var popup_370aa143181e16d80ace566d2dcb24b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bef054791ebe6a825801f8827339dbae = $(`<div id="html_bef054791ebe6a825801f8827339dbae" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_370aa143181e16d80ace566d2dcb24b8.setContent(html_bef054791ebe6a825801f8827339dbae);
+            
+        
+
+        marker_aae6dc5576822042cd41b88b60480e92.bindPopup(popup_370aa143181e16d80ace566d2dcb24b8)
+        ;
+
+        
+    
+    
+            marker_aae6dc5576822042cd41b88b60480e92.bindTooltip(
+                `<div>
+                     Elysian Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34032e0a17ee60e290385ab663a7da0b = L.marker(
+                [34.05298571, -118.2435337],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_c60c096e0283b0d22a76594d399f94f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34032e0a17ee60e290385ab663a7da0b.setIcon(icon_c60c096e0283b0d22a76594d399f94f4);
+        
+    
+        var popup_0be6d3183e55addf022c6833745235e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db7189e2e2cee628202c0a1aef600e0e = $(`<div id="html_db7189e2e2cee628202c0a1aef600e0e" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_0be6d3183e55addf022c6833745235e6.setContent(html_db7189e2e2cee628202c0a1aef600e0e);
+            
+        
+
+        marker_34032e0a17ee60e290385ab663a7da0b.bindPopup(popup_0be6d3183e55addf022c6833745235e6)
+        ;
+
+        
+    
+    
+            marker_34032e0a17ee60e290385ab663a7da0b.bindTooltip(
+                `<div>
+                     City Hall Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02bee695df91f294c7ab10dc45c2fae1 = L.marker(
+                [34.05586529, -118.2461272],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_cf51bffd5040e03edd11ae4e6787540e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02bee695df91f294c7ab10dc45c2fae1.setIcon(icon_cf51bffd5040e03edd11ae4e6787540e);
+        
+    
+        var popup_30a9a3f95a4b02e23b34fd450edd1e62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6952b6e336ab6d78d026d5e82b815a85 = $(`<div id="html_6952b6e336ab6d78d026d5e82b815a85" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_30a9a3f95a4b02e23b34fd450edd1e62.setContent(html_6952b6e336ab6d78d026d5e82b815a85);
+            
+        
+
+        marker_02bee695df91f294c7ab10dc45c2fae1.bindPopup(popup_30a9a3f95a4b02e23b34fd450edd1e62)
+        ;
+
+        
+    
+    
+            marker_02bee695df91f294c7ab10dc45c2fae1.bindTooltip(
+                `<div>
+                     Grand Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6a553532eb88a6e698fb4d46661bda3 = L.marker(
+                [34.05635746, -118.2382371],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_8aa0e3f7a947c84ce415be2083155dca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6a553532eb88a6e698fb4d46661bda3.setIcon(icon_8aa0e3f7a947c84ce415be2083155dca);
+        
+    
+        var popup_79566b10e3a7e46ef49946864cea3f12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_572bcc7122fdfeed139ea0f2c4575695 = $(`<div id="html_572bcc7122fdfeed139ea0f2c4575695" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_79566b10e3a7e46ef49946864cea3f12.setContent(html_572bcc7122fdfeed139ea0f2c4575695);
+            
+        
+
+        marker_a6a553532eb88a6e698fb4d46661bda3.bindPopup(popup_79566b10e3a7e46ef49946864cea3f12)
+        ;
+
+        
+    
+    
+            marker_a6a553532eb88a6e698fb4d46661bda3.bindTooltip(
+                `<div>
+                     El Pueblo de Los Angeles Historic Monument PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_070442a8c125d4c79135d46ff97a7b03 = L.marker(
+                [34.06415282, -118.2406435],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_b7898cdab9eca3ce976025de9301d988 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_070442a8c125d4c79135d46ff97a7b03.setIcon(icon_b7898cdab9eca3ce976025de9301d988);
+        
+    
+        var popup_ca2db54bb6f529c95d8c6a43ed7b739a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_700642e49e02910b7ec5cc2fdad8f37f = $(`<div id="html_700642e49e02910b7ec5cc2fdad8f37f" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_ca2db54bb6f529c95d8c6a43ed7b739a.setContent(html_700642e49e02910b7ec5cc2fdad8f37f);
+            
+        
+
+        marker_070442a8c125d4c79135d46ff97a7b03.bindPopup(popup_ca2db54bb6f529c95d8c6a43ed7b739a)
+        ;
+
+        
+    
+    
+            marker_070442a8c125d4c79135d46ff97a7b03.bindTooltip(
+                `<div>
+                     Alpine Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8dda6ce8c599106f01e3c61b12ad39a6 = L.marker(
+                [34.06860065, -118.2312333],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_21282c0f063391c65a7a88950e951fd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8dda6ce8c599106f01e3c61b12ad39a6.setIcon(icon_21282c0f063391c65a7a88950e951fd3);
+        
+    
+        var popup_86d5cfcf8f9750eee57a71c36ea83b4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fce526dda96ff5af104084a195c80742 = $(`<div id="html_fce526dda96ff5af104084a195c80742" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_86d5cfcf8f9750eee57a71c36ea83b4b.setContent(html_fce526dda96ff5af104084a195c80742);
+            
+        
+
+        marker_8dda6ce8c599106f01e3c61b12ad39a6.bindPopup(popup_86d5cfcf8f9750eee57a71c36ea83b4b)
+        ;
+
+        
+    
+    
+            marker_8dda6ce8c599106f01e3c61b12ad39a6.bindTooltip(
+                `<div>
+                     Los Angeles SHP PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94c4d74ecb6b4c83a3a5dcabd76bf82f = L.marker(
+                [34.04957052, -118.2444109],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_2f4581163d5310e8205558bce11805c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94c4d74ecb6b4c83a3a5dcabd76bf82f.setIcon(icon_2f4581163d5310e8205558bce11805c9);
+        
+    
+        var popup_8a6ea3d4ee041dbe45ff01af1044d869 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07c2c2172cb22776a4712b030da9d1f6 = $(`<div id="html_07c2c2172cb22776a4712b030da9d1f6" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_8a6ea3d4ee041dbe45ff01af1044d869.setContent(html_07c2c2172cb22776a4712b030da9d1f6);
+            
+        
+
+        marker_94c4d74ecb6b4c83a3a5dcabd76bf82f.bindPopup(popup_8a6ea3d4ee041dbe45ff01af1044d869)
+        ;
+
+        
+    
+    
+            marker_94c4d74ecb6b4c83a3a5dcabd76bf82f.bindTooltip(
+                `<div>
+                     Budokan Little Tokyo Recreation Center PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c7d9d182c69acbf9b44841364433346 = L.marker(
+                [34.06096357, -118.2415994],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_50940d7a403cd608915030a76d7f3751 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8c7d9d182c69acbf9b44841364433346.setIcon(icon_50940d7a403cd608915030a76d7f3751);
+        
+    
+        var popup_fcf389776d7d504c07ce9712952e4f75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80e1c01292c5836cb5016be44099038a = $(`<div id="html_80e1c01292c5836cb5016be44099038a" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_fcf389776d7d504c07ce9712952e4f75.setContent(html_80e1c01292c5836cb5016be44099038a);
+            
+        
+
+        marker_8c7d9d182c69acbf9b44841364433346.bindPopup(popup_fcf389776d7d504c07ce9712952e4f75)
+        ;
+
+        
+    
+    
+            marker_8c7d9d182c69acbf9b44841364433346.bindTooltip(
+                `<div>
+                     Ord & Yale Street Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10b949428735af254f9b0c429baae480 = L.marker(
+                [34.06394943, -118.2409149],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_758931bb2f7763c36650fd4283755ce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10b949428735af254f9b0c429baae480.setIcon(icon_758931bb2f7763c36650fd4283755ce8);
+        
+    
+        var popup_64bb25b76335196dedeefa79cfdc3a8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7448b68a8c11a5ebee7fec3abee9ffc3 = $(`<div id="html_7448b68a8c11a5ebee7fec3abee9ffc3" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_64bb25b76335196dedeefa79cfdc3a8e.setContent(html_7448b68a8c11a5ebee7fec3abee9ffc3);
+            
+        
+
+        marker_10b949428735af254f9b0c429baae480.bindPopup(popup_64bb25b76335196dedeefa79cfdc3a8e)
+        ;
+
+        
+    
+    
+            marker_10b949428735af254f9b0c429baae480.bindTooltip(
+                `<div>
+                     Alpine Recreation Center PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c426f0fb20ecca6fba90cf17da3cb0fc = L.marker(
+                [34.05370573, -118.244616],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_c831ab13df791906ed631c2f993ce4de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c426f0fb20ecca6fba90cf17da3cb0fc.setIcon(icon_c831ab13df791906ed631c2f993ce4de);
+        
+    
+        var popup_13860711f7df95863efc3a90d46c8a51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a40a8c99af8dec3fbd886eb62ce0a6b9 = $(`<div id="html_a40a8c99af8dec3fbd886eb62ce0a6b9" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_13860711f7df95863efc3a90d46c8a51.setContent(html_a40a8c99af8dec3fbd886eb62ce0a6b9);
+            
+        
+
+        marker_c426f0fb20ecca6fba90cf17da3cb0fc.bindPopup(popup_13860711f7df95863efc3a90d46c8a51)
+        ;
+
+        
+    
+    
+            marker_c426f0fb20ecca6fba90cf17da3cb0fc.bindTooltip(
+                `<div>
+                     1st and Broadway Civic Center Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f56b165ba8da3b36335ded2ef7487981 = L.marker(
+                [34.0514475, -118.2706605],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_77924062e2fc213c9920ce9b01fa2875 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f56b165ba8da3b36335ded2ef7487981.setIcon(icon_77924062e2fc213c9920ce9b01fa2875);
+        
+    
+        var popup_3a149d91b1d7685fd8821dea6cdde615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfed71640c431007a7db17b73b07b44d = $(`<div id="html_cfed71640c431007a7db17b73b07b44d" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_3a149d91b1d7685fd8821dea6cdde615.setContent(html_cfed71640c431007a7db17b73b07b44d);
+            
+        
+
+        marker_f56b165ba8da3b36335ded2ef7487981.bindPopup(popup_3a149d91b1d7685fd8821dea6cdde615)
+        ;
+
+        
+    
+    
+            marker_f56b165ba8da3b36335ded2ef7487981.bindTooltip(
+                `<div>
+                     Valencia Triangle PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3531ca468e5a7ed493074c7335012fc0 = L.marker(
+                [34.05799397, -118.2601917],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_d46fff1febf5feed3b1fbd5d028ce1a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3531ca468e5a7ed493074c7335012fc0.setIcon(icon_d46fff1febf5feed3b1fbd5d028ce1a9);
+        
+    
+        var popup_db86f98016a38bc70d0ab7bc1133dbf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09a1cb8615824c03fcef1dc8967aeefb = $(`<div id="html_09a1cb8615824c03fcef1dc8967aeefb" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_db86f98016a38bc70d0ab7bc1133dbf2.setContent(html_09a1cb8615824c03fcef1dc8967aeefb);
+            
+        
+
+        marker_3531ca468e5a7ed493074c7335012fc0.bindPopup(popup_db86f98016a38bc70d0ab7bc1133dbf2)
+        ;
+
+        
+    
+    
+            marker_3531ca468e5a7ed493074c7335012fc0.bindTooltip(
+                `<div>
+                     Miguel Contreras Learning Center Pool PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4f7f368f3cd2234bbe711181cd64bf6 = L.marker(
+                [34.07010949, -118.2487136],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_bd183612815b19e4196385672d466a64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e4f7f368f3cd2234bbe711181cd64bf6.setIcon(icon_bd183612815b19e4196385672d466a64);
+        
+    
+        var popup_696b49edcfdf01adce2e1fa7ca826418 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccc0dba0d6675bf7797baf62dcacf141 = $(`<div id="html_ccc0dba0d6675bf7797baf62dcacf141" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_696b49edcfdf01adce2e1fa7ca826418.setContent(html_ccc0dba0d6675bf7797baf62dcacf141);
+            
+        
+
+        marker_e4f7f368f3cd2234bbe711181cd64bf6.bindPopup(popup_696b49edcfdf01adce2e1fa7ca826418)
+        ;
+
+        
+    
+    
+            marker_e4f7f368f3cd2234bbe711181cd64bf6.bindTooltip(
+                `<div>
+                     Everett Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53ef64018aa3232f96104836f2d0a592 = L.marker(
+                [34.08481628, -118.2817486],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_1cae52183a7cb6a0b73d15adcd3b4f87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_53ef64018aa3232f96104836f2d0a592.setIcon(icon_1cae52183a7cb6a0b73d15adcd3b4f87);
+        
+    
+        var popup_55031331f19fc95eeb8d4be7e7a7c118 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15933f297a2695986d63d28f27a55ff6 = $(`<div id="html_15933f297a2695986d63d28f27a55ff6" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_55031331f19fc95eeb8d4be7e7a7c118.setContent(html_15933f297a2695986d63d28f27a55ff6);
+            
+        
+
+        marker_53ef64018aa3232f96104836f2d0a592.bindPopup(popup_55031331f19fc95eeb8d4be7e7a7c118)
+        ;
+
+        
+    
+    
+            marker_53ef64018aa3232f96104836f2d0a592.bindTooltip(
+                `<div>
+                     Bellevue Recreation Center PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78be0b89203ca1e15df535cd434e69f1 = L.marker(
+                [34.09224274, -118.2663265],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_c5ab716dafb1c87868bb3f03af0c21ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78be0b89203ca1e15df535cd434e69f1.setIcon(icon_c5ab716dafb1c87868bb3f03af0c21ad);
+        
+    
+        var popup_c2d219ed72986358686a7b714c62b0ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3fcdaf5055e4d76249d78a544e658aa = $(`<div id="html_c3fcdaf5055e4d76249d78a544e658aa" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_c2d219ed72986358686a7b714c62b0ec.setContent(html_c3fcdaf5055e4d76249d78a544e658aa);
+            
+        
+
+        marker_78be0b89203ca1e15df535cd434e69f1.bindPopup(popup_c2d219ed72986358686a7b714c62b0ec)
+        ;
+
+        
+    
+    
+            marker_78be0b89203ca1e15df535cd434e69f1.bindTooltip(
+                `<div>
+                     Silver Lake Rec. Center PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_885f71d9929946cf22ab68be033e894b = L.marker(
+                [34.07286319, -118.2604624],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_fefff432dfda109d01ade7a684f661ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_885f71d9929946cf22ab68be033e894b.setIcon(icon_fefff432dfda109d01ade7a684f661ab);
+        
+    
+        var popup_bcd7c324e6154fb295dcd27bc1683ef1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c0da8ca7cd78925fe6b4d6e09b57fc1 = $(`<div id="html_5c0da8ca7cd78925fe6b4d6e09b57fc1" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_bcd7c324e6154fb295dcd27bc1683ef1.setContent(html_5c0da8ca7cd78925fe6b4d6e09b57fc1);
+            
+        
+
+        marker_885f71d9929946cf22ab68be033e894b.bindPopup(popup_bcd7c324e6154fb295dcd27bc1683ef1)
+        ;
+
+        
+    
+    
+            marker_885f71d9929946cf22ab68be033e894b.bindTooltip(
+                `<div>
+                     Echo Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a6e776a4ac1d89b5b7e8f89d89fe061 = L.marker(
+                [34.06206457, -118.2571199],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_4305b7008d8e92b0e5c1d00d611e5cdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a6e776a4ac1d89b5b7e8f89d89fe061.setIcon(icon_4305b7008d8e92b0e5c1d00d611e5cdd);
+        
+    
+        var popup_77354240befc3ba64c620d3579b614fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36fe18ecd23264c49186ffcef414f4ec = $(`<div id="html_36fe18ecd23264c49186ffcef414f4ec" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_77354240befc3ba64c620d3579b614fb.setContent(html_36fe18ecd23264c49186ffcef414f4ec);
+            
+        
+
+        marker_2a6e776a4ac1d89b5b7e8f89d89fe061.bindPopup(popup_77354240befc3ba64c620d3579b614fb)
+        ;
+
+        
+    
+    
+            marker_2a6e776a4ac1d89b5b7e8f89d89fe061.bindTooltip(
+                `<div>
+                     Vista Hermosa Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_347f58a23b74e95a06898bf018ea568a = L.marker(
+                [34.06592741, -118.2591445],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_b330ecbb196c2555ca09348349c8d915 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_347f58a23b74e95a06898bf018ea568a.setIcon(icon_b330ecbb196c2555ca09348349c8d915);
+        
+    
+        var popup_50b6be88b6066bc125ad8743e76691d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86db80671b21e5a53e214f0334a9bb8d = $(`<div id="html_86db80671b21e5a53e214f0334a9bb8d" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_50b6be88b6066bc125ad8743e76691d7.setContent(html_86db80671b21e5a53e214f0334a9bb8d);
+            
+        
+
+        marker_347f58a23b74e95a06898bf018ea568a.bindPopup(popup_50b6be88b6066bc125ad8743e76691d7)
+        ;
+
+        
+    
+    
+            marker_347f58a23b74e95a06898bf018ea568a.bindTooltip(
+                `<div>
+                     Patton Street Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e245cfa4ae87763fc96005273a802826 = L.marker(
+                [34.0641686, -118.2619027],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_07a812b0b9184a7307af72a49c0de683 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e245cfa4ae87763fc96005273a802826.setIcon(icon_07a812b0b9184a7307af72a49c0de683);
+        
+    
+        var popup_2acb86493c62f2560e6815993316cd04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95f6ce1663a7a7670254e7c21b60739c = $(`<div id="html_95f6ce1663a7a7670254e7c21b60739c" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_2acb86493c62f2560e6815993316cd04.setContent(html_95f6ce1663a7a7670254e7c21b60739c);
+            
+        
+
+        marker_e245cfa4ae87763fc96005273a802826.bindPopup(popup_2acb86493c62f2560e6815993316cd04)
+        ;
+
+        
+    
+    
+            marker_e245cfa4ae87763fc96005273a802826.bindTooltip(
+                `<div>
+                     Rockwood Community Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4486b7dc5e7c702f8f4889f171c63acc = L.marker(
+                [34.07394241, -118.2495833],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_15a77594af19dc09fd3b4c0435a89ba1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4486b7dc5e7c702f8f4889f171c63acc.setIcon(icon_15a77594af19dc09fd3b4c0435a89ba1);
+        
+    
+        var popup_4b3eaf6b9d1f29705b1c529ae847cafb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d10b9c01e4c13c368216731f64cbed6 = $(`<div id="html_1d10b9c01e4c13c368216731f64cbed6" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_4b3eaf6b9d1f29705b1c529ae847cafb.setContent(html_1d10b9c01e4c13c368216731f64cbed6);
+            
+        
+
+        marker_4486b7dc5e7c702f8f4889f171c63acc.bindPopup(popup_4b3eaf6b9d1f29705b1c529ae847cafb)
+        ;
+
+        
+    
+    
+            marker_4486b7dc5e7c702f8f4889f171c63acc.bindTooltip(
+                `<div>
+                     Lilac Terrace Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bd29a38332f6691123d327eed240644 = L.marker(
+                [34.06117927, -118.2570205],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_43ab4e48567f2393c264447f0a5c03d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3bd29a38332f6691123d327eed240644.setIcon(icon_43ab4e48567f2393c264447f0a5c03d1);
+        
+    
+        var popup_d19026b6e6991b0dbb6d8db8c72f2142 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1de6448bf3461fcf18da945b9aee6e1 = $(`<div id="html_d1de6448bf3461fcf18da945b9aee6e1" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_d19026b6e6991b0dbb6d8db8c72f2142.setContent(html_d1de6448bf3461fcf18da945b9aee6e1);
+            
+        
+
+        marker_3bd29a38332f6691123d327eed240644.bindPopup(popup_d19026b6e6991b0dbb6d8db8c72f2142)
+        ;
+
+        
+    
+    
+            marker_3bd29a38332f6691123d327eed240644.bindTooltip(
+                `<div>
+                     Vista Hermosa Soccer Field PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a046a26beb5725e187ebaf5cc3e9604 = L.marker(
+                [34.06909049, -118.2707182],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_0d97f7b932e7b5750fbb263b039f0950 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a046a26beb5725e187ebaf5cc3e9604.setIcon(icon_0d97f7b932e7b5750fbb263b039f0950);
+        
+    
+        var popup_16639af2600bb2006b3800b3e61c60d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dead75826610cae7c619c304da70e92d = $(`<div id="html_dead75826610cae7c619c304da70e92d" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_16639af2600bb2006b3800b3e61c60d7.setContent(html_dead75826610cae7c619c304da70e92d);
+            
+        
+
+        marker_1a046a26beb5725e187ebaf5cc3e9604.bindPopup(popup_16639af2600bb2006b3800b3e61c60d7)
+        ;
+
+        
+    
+    
+            marker_1a046a26beb5725e187ebaf5cc3e9604.bindTooltip(
+                `<div>
+                     Lake Street Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e888129013ff36752a1d224ed7be4a04 = L.marker(
+                [34.06453983, -118.25902],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_059ae56c7ee64936f2d7a68cc3e729be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e888129013ff36752a1d224ed7be4a04.setIcon(icon_059ae56c7ee64936f2d7a68cc3e729be);
+        
+    
+        var popup_cbf34a0d08149bfb1b48ca5a6ea154fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f91061e9aab90a61f791acce16f29e81 = $(`<div id="html_f91061e9aab90a61f791acce16f29e81" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_cbf34a0d08149bfb1b48ca5a6ea154fd.setContent(html_f91061e9aab90a61f791acce16f29e81);
+            
+        
+
+        marker_e888129013ff36752a1d224ed7be4a04.bindPopup(popup_cbf34a0d08149bfb1b48ca5a6ea154fd)
+        ;
+
+        
+    
+    
+            marker_e888129013ff36752a1d224ed7be4a04.bindTooltip(
+                `<div>
+                     Echo Park Deep Pool PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b5f8cae42d7af9769164c77942485d6 = L.marker(
+                [34.08626747, -118.275836],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_327d0cc98c6252a8601399378aebedc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b5f8cae42d7af9769164c77942485d6.setIcon(icon_327d0cc98c6252a8601399378aebedc0);
+        
+    
+        var popup_38fbb6b9ad04f1d9d00dd78cf5d620c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4011773aa61941fe6edfb731644c215a = $(`<div id="html_4011773aa61941fe6edfb731644c215a" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_38fbb6b9ad04f1d9d00dd78cf5d620c7.setContent(html_4011773aa61941fe6edfb731644c215a);
+            
+        
+
+        marker_3b5f8cae42d7af9769164c77942485d6.bindPopup(popup_38fbb6b9ad04f1d9d00dd78cf5d620c7)
+        ;
+
+        
+    
+    
+            marker_3b5f8cae42d7af9769164c77942485d6.bindTooltip(
+                `<div>
+                     Larissa Parkway PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7234deab80dc5d1c02d07fda9bee3f4 = L.marker(
+                [34.08266091, -118.2748928],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_b0c2a3cae770195c5144c73db3ad76a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7234deab80dc5d1c02d07fda9bee3f4.setIcon(icon_b0c2a3cae770195c5144c73db3ad76a7);
+        
+    
+        var popup_5c02c7437865e33a8dc24e9de28b4822 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d82b14b3bc7f72f82613357f28cca6c = $(`<div id="html_0d82b14b3bc7f72f82613357f28cca6c" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_5c02c7437865e33a8dc24e9de28b4822.setContent(html_0d82b14b3bc7f72f82613357f28cca6c);
+            
+        
+
+        marker_a7234deab80dc5d1c02d07fda9bee3f4.bindPopup(popup_5c02c7437865e33a8dc24e9de28b4822)
+        ;
+
+        
+    
+    
+            marker_a7234deab80dc5d1c02d07fda9bee3f4.bindTooltip(
+                `<div>
+                     Laurel and Hardy Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b7d4ffb273909b42fe5e83f0ca7d1e2 = L.marker(
+                [34.06552288, -118.2593009],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_05ecf1eb2ad967c51e7682e3fea08e6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b7d4ffb273909b42fe5e83f0ca7d1e2.setIcon(icon_05ecf1eb2ad967c51e7682e3fea08e6e);
+        
+    
+        var popup_19be4219718a6f54af7d41587189beb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2529e676cc7cacb16f38eb321b685a05 = $(`<div id="html_2529e676cc7cacb16f38eb321b685a05" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_19be4219718a6f54af7d41587189beb0.setContent(html_2529e676cc7cacb16f38eb321b685a05);
+            
+        
+
+        marker_2b7d4ffb273909b42fe5e83f0ca7d1e2.bindPopup(popup_19be4219718a6f54af7d41587189beb0)
+        ;
+
+        
+    
+    
+            marker_2b7d4ffb273909b42fe5e83f0ca7d1e2.bindTooltip(
+                `<div>
+                     Echo Park Community Center PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42c7b2ebac1641e19d1bbb25d0653cbf = L.marker(
+                [34.06376989, -118.2646873],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_ef5ea9c3bb3f92fee5fd6d6796d0c000 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_42c7b2ebac1641e19d1bbb25d0653cbf.setIcon(icon_ef5ea9c3bb3f92fee5fd6d6796d0c000);
+        
+    
+        var popup_91a0efdab1dd55e14b7ef63907b6ad5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39dfdbd8e2ed9dd4cbd481655d278eac = $(`<div id="html_39dfdbd8e2ed9dd4cbd481655d278eac" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_91a0efdab1dd55e14b7ef63907b6ad5a.setContent(html_39dfdbd8e2ed9dd4cbd481655d278eac);
+            
+        
+
+        marker_42c7b2ebac1641e19d1bbb25d0653cbf.bindPopup(popup_91a0efdab1dd55e14b7ef63907b6ad5a)
+        ;
+
+        
+    
+    
+            marker_42c7b2ebac1641e19d1bbb25d0653cbf.bindTooltip(
+                `<div>
+                     Unidad Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d20ec6252ed088e48788213cbf62e02a = L.marker(
+                [34.0624238, -118.2840348],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_9faaf2cc0d4c8a3a7842ce93a5e5c277 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d20ec6252ed088e48788213cbf62e02a.setIcon(icon_9faaf2cc0d4c8a3a7842ce93a5e5c277);
+        
+    
+        var popup_e74f9e0ba710579a5b5904b717741f6c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29bf39cb02264fe02fb128401aefba14 = $(`<div id="html_29bf39cb02264fe02fb128401aefba14" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_e74f9e0ba710579a5b5904b717741f6c.setContent(html_29bf39cb02264fe02fb128401aefba14);
+            
+        
+
+        marker_d20ec6252ed088e48788213cbf62e02a.bindPopup(popup_e74f9e0ba710579a5b5904b717741f6c)
+        ;
+
+        
+    
+    
+            marker_d20ec6252ed088e48788213cbf62e02a.bindTooltip(
+                `<div>
+                     Lafayette Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6bcdacc8141806291471d08aecaf932 = L.marker(
+                [34.05884542, -118.2776672],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_77343a83134cabb92360127302c264ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e6bcdacc8141806291471d08aecaf932.setIcon(icon_77343a83134cabb92360127302c264ff);
+        
+    
+        var popup_87760c3268ac16d97bd8cc37be1c01c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e98b71d66dc7b4ac8050ed496c3e6cc8 = $(`<div id="html_e98b71d66dc7b4ac8050ed496c3e6cc8" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_87760c3268ac16d97bd8cc37be1c01c2.setContent(html_e98b71d66dc7b4ac8050ed496c3e6cc8);
+            
+        
+
+        marker_e6bcdacc8141806291471d08aecaf932.bindPopup(popup_87760c3268ac16d97bd8cc37be1c01c2)
+        ;
+
+        
+    
+    
+            marker_e6bcdacc8141806291471d08aecaf932.bindTooltip(
+                `<div>
+                     MacArthur Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_896caa3160b55f227929f0d66cf42e5c = L.marker(
+                [34.05279209, -118.2766672],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_86680423c6de9ee643f9e0b126a63578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_896caa3160b55f227929f0d66cf42e5c.setIcon(icon_86680423c6de9ee643f9e0b126a63578);
+        
+    
+        var popup_2afefdc33f1911c0426419a4532f7ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c272e3b11d0e2536f7b0a5342e31850 = $(`<div id="html_4c272e3b11d0e2536f7b0a5342e31850" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_2afefdc33f1911c0426419a4532f7ca5.setContent(html_4c272e3b11d0e2536f7b0a5342e31850);
+            
+        
+
+        marker_896caa3160b55f227929f0d66cf42e5c.bindPopup(popup_2afefdc33f1911c0426419a4532f7ca5)
+        ;
+
+        
+    
+    
+            marker_896caa3160b55f227929f0d66cf42e5c.bindTooltip(
+                `<div>
+                     Hope and Peace Park PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9cf434592229061f189b2f5f6183921 = L.marker(
+                [34.06607408, -118.2831625],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_b83fb18b89b8466f01e55e86b2352b0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9cf434592229061f189b2f5f6183921.setIcon(icon_b83fb18b89b8466f01e55e86b2352b0e);
+        
+    
+        var popup_1ec1751d875ab6effb91ba70258a2f23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b3df83c2c4c1ac7437c6b95b8540721 = $(`<div id="html_1b3df83c2c4c1ac7437c6b95b8540721" style="width: 100.0%; height: 100.0%;">WestLake</div>`)[0];
+                popup_1ec1751d875ab6effb91ba70258a2f23.setContent(html_1b3df83c2c4c1ac7437c6b95b8540721);
+            
+        
+
+        marker_e9cf434592229061f189b2f5f6183921.bindPopup(popup_1ec1751d875ab6effb91ba70258a2f23)
+        ;
+
+        
+    
+    
+            marker_e9cf434592229061f189b2f5f6183921.bindTooltip(
+                `<div>
+                     Occidental Parkway PARK_NAME: WestLake
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10f0485a7889d882f519c21f122e67eb = L.marker(
+                [34.03837, -118.2046527],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_84cc94bdfaba30ca9293427730a0b775 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_10f0485a7889d882f519c21f122e67eb.setIcon(icon_84cc94bdfaba30ca9293427730a0b775);
+        
+    
+        var popup_e372a9c2dae4f1ba97c256e27234e845 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_894d3841e5e2b1f628876f874f8be5f0 = $(`<div id="html_894d3841e5e2b1f628876f874f8be5f0" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_e372a9c2dae4f1ba97c256e27234e845.setContent(html_894d3841e5e2b1f628876f874f8be5f0);
+            
+        
+
+        marker_10f0485a7889d882f519c21f122e67eb.bindPopup(popup_e372a9c2dae4f1ba97c256e27234e845)
+        ;
+
+        
+    
+    
+            marker_10f0485a7889d882f519c21f122e67eb.bindTooltip(
+                `<div>
+                     Evergreen Rec. Center PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb430d8308fca0c3a09b726cffb19293 = L.marker(
+                [34.05939811, -118.2017916],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_5918dd5be7b1a555df7b651b365ecdc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_cb430d8308fca0c3a09b726cffb19293.setIcon(icon_5918dd5be7b1a555df7b651b365ecdc0);
+        
+    
+        var popup_f6f82471d5364e7d92528f97e2909c2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6557989aa598c50973c67b9f4f4b145 = $(`<div id="html_a6557989aa598c50973c67b9f4f4b145" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_f6f82471d5364e7d92528f97e2909c2f.setContent(html_a6557989aa598c50973c67b9f4f4b145);
+            
+        
+
+        marker_cb430d8308fca0c3a09b726cffb19293.bindPopup(popup_f6f82471d5364e7d92528f97e2909c2f)
+        ;
+
+        
+    
+    
+            marker_cb430d8308fca0c3a09b726cffb19293.bindTooltip(
+                `<div>
+                     Hazard Park PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4486c00d1d9b221b2323074cffd6b5f = L.marker(
+                [34.05888419, -118.1951296],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_8b7683a4bab3e1708b84b252630875a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_f4486c00d1d9b221b2323074cffd6b5f.setIcon(icon_8b7683a4bab3e1708b84b252630875a2);
+        
+    
+        var popup_c1c468b6d513c7b3964d24ad8f22958c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c75d88d3954dd30e2162d4252334507 = $(`<div id="html_4c75d88d3954dd30e2162d4252334507" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_c1c468b6d513c7b3964d24ad8f22958c.setContent(html_4c75d88d3954dd30e2162d4252334507);
+            
+        
+
+        marker_f4486c00d1d9b221b2323074cffd6b5f.bindPopup(popup_c1c468b6d513c7b3964d24ad8f22958c)
+        ;
+
+        
+    
+    
+            marker_f4486c00d1d9b221b2323074cffd6b5f.bindTooltip(
+                `<div>
+                     Henry Alvarez Memorial Park PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45072e08b7addc7a1ebff9dab9901081 = L.marker(
+                [34.04003071, -118.2178459],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_d56f74e3b85610c6c98b847aec20eb0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_45072e08b7addc7a1ebff9dab9901081.setIcon(icon_d56f74e3b85610c6c98b847aec20eb0a);
+        
+    
+        var popup_66b0bb2d360bf037f15c4e740cd7bf11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44cb78840d02045b395e1b0a26b48882 = $(`<div id="html_44cb78840d02045b395e1b0a26b48882" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_66b0bb2d360bf037f15c4e740cd7bf11.setContent(html_44cb78840d02045b395e1b0a26b48882);
+            
+        
+
+        marker_45072e08b7addc7a1ebff9dab9901081.bindPopup(popup_66b0bb2d360bf037f15c4e740cd7bf11)
+        ;
+
+        
+    
+    
+            marker_45072e08b7addc7a1ebff9dab9901081.bindTooltip(
+                `<div>
+                     Hollenbeck Park (City of Los Angeles) PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0d71fa68d511a085dac5dd1db91ab7e = L.marker(
+                [34.04641268, -118.2223405],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_1c4cd057d3b915f297bd6d6615d96bc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_e0d71fa68d511a085dac5dd1db91ab7e.setIcon(icon_1c4cd057d3b915f297bd6d6615d96bc3);
+        
+    
+        var popup_0c403aefc920f3cdc7529e7d1bd5399f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95dae5d2804f312b35b4c54f3e461fee = $(`<div id="html_95dae5d2804f312b35b4c54f3e461fee" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_0c403aefc920f3cdc7529e7d1bd5399f.setContent(html_95dae5d2804f312b35b4c54f3e461fee);
+            
+        
+
+        marker_e0d71fa68d511a085dac5dd1db91ab7e.bindPopup(popup_0c403aefc920f3cdc7529e7d1bd5399f)
+        ;
+
+        
+    
+    
+            marker_e0d71fa68d511a085dac5dd1db91ab7e.bindTooltip(
+                `<div>
+                     Pecan Playground PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42bddcb4a05efc8e0b4534a235997db7 = L.marker(
+                [34.05367178, -118.2175777],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_9540ea3768d3d54b22ff6b6e017662da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_42bddcb4a05efc8e0b4534a235997db7.setIcon(icon_9540ea3768d3d54b22ff6b6e017662da);
+        
+    
+        var popup_7f423a7213cf1f6f8559dac94d8a1222 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_769ce9d57d9edfd14fce3482b4bcd4d9 = $(`<div id="html_769ce9d57d9edfd14fce3482b4bcd4d9" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_7f423a7213cf1f6f8559dac94d8a1222.setContent(html_769ce9d57d9edfd14fce3482b4bcd4d9);
+            
+        
+
+        marker_42bddcb4a05efc8e0b4534a235997db7.bindPopup(popup_7f423a7213cf1f6f8559dac94d8a1222)
+        ;
+
+        
+    
+    
+            marker_42bddcb4a05efc8e0b4534a235997db7.bindTooltip(
+                `<div>
+                     Prospect Park PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e41c138ba103f7cb043ea79f1ac86e49 = L.marker(
+                [34.05640401, -118.1958666],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_836eba0eed1df0b455e4cc5221e0808a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_e41c138ba103f7cb043ea79f1ac86e49.setIcon(icon_836eba0eed1df0b455e4cc5221e0808a);
+        
+    
+        var popup_66eb171ed2b59bc3d7d79a199b2074cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a12002512aff79f0a29e39797922c39a = $(`<div id="html_a12002512aff79f0a29e39797922c39a" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_66eb171ed2b59bc3d7d79a199b2074cb.setContent(html_a12002512aff79f0a29e39797922c39a);
+            
+        
+
+        marker_e41c138ba103f7cb043ea79f1ac86e49.bindPopup(popup_66eb171ed2b59bc3d7d79a199b2074cb)
+        ;
+
+        
+    
+    
+            marker_e41c138ba103f7cb043ea79f1ac86e49.bindTooltip(
+                `<div>
+                     Ramona Gardens Park PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae337ff35042dc9a3647278372d1adee = L.marker(
+                [34.04457345, -118.2121481],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_59dfed5528aaaa03abc782140963a300 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_ae337ff35042dc9a3647278372d1adee.setIcon(icon_59dfed5528aaaa03abc782140963a300);
+        
+    
+        var popup_e48d585c6defa585eae27f4907ddd117 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14ca7ab1a314f4c5844aa38301022a67 = $(`<div id="html_14ca7ab1a314f4c5844aa38301022a67" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_e48d585c6defa585eae27f4907ddd117.setContent(html_14ca7ab1a314f4c5844aa38301022a67);
+            
+        
+
+        marker_ae337ff35042dc9a3647278372d1adee.bindPopup(popup_e48d585c6defa585eae27f4907ddd117)
+        ;
+
+        
+    
+    
+            marker_ae337ff35042dc9a3647278372d1adee.bindTooltip(
+                `<div>
+                     Ross Valencia Community Park PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d09ec8332851c269dbc1b9d9e77ab4bc = L.marker(
+                [34.05107668, -118.1978709],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_a2bbcb3af0391da3d45ceb94373e0302 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_d09ec8332851c269dbc1b9d9e77ab4bc.setIcon(icon_a2bbcb3af0391da3d45ceb94373e0302);
+        
+    
+        var popup_b52f3c4ca159c36abb382d1bf43a5a9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fedb92487f94bc4ab188d98785d2cb6 = $(`<div id="html_3fedb92487f94bc4ab188d98785d2cb6" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_b52f3c4ca159c36abb382d1bf43a5a9f.setContent(html_3fedb92487f94bc4ab188d98785d2cb6);
+            
+        
+
+        marker_d09ec8332851c269dbc1b9d9e77ab4bc.bindPopup(popup_b52f3c4ca159c36abb382d1bf43a5a9f)
+        ;
+
+        
+    
+    
+            marker_d09ec8332851c269dbc1b9d9e77ab4bc.bindTooltip(
+                `<div>
+                     Wabash Rec. Center PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d53819da9097e872ad3b85dce368e069 = L.marker(
+                [34.05277959, -118.2124774],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_0d9c2da1524365a4a2c2ff7b53abf65b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_d53819da9097e872ad3b85dce368e069.setIcon(icon_0d9c2da1524365a4a2c2ff7b53abf65b);
+        
+    
+        var popup_eb7ce5071f1aa3b48c5f740059e0577b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa4cd4acee33f391f1f97b93441f7798 = $(`<div id="html_fa4cd4acee33f391f1f97b93441f7798" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_eb7ce5071f1aa3b48c5f740059e0577b.setContent(html_fa4cd4acee33f391f1f97b93441f7798);
+            
+        
+
+        marker_d53819da9097e872ad3b85dce368e069.bindPopup(popup_eb7ce5071f1aa3b48c5f740059e0577b)
+        ;
+
+        
+    
+    
+            marker_d53819da9097e872ad3b85dce368e069.bindTooltip(
+                `<div>
+                     State Street Rec. Center PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25c6be2a4f17a590021c76489ad35ec3 = L.marker(
+                [34.05932031, -118.2087255],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_210b3e83c94679c639f2e44d6874af43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_25c6be2a4f17a590021c76489ad35ec3.setIcon(icon_210b3e83c94679c639f2e44d6874af43);
+        
+    
+        var popup_b4ae74fad7c67ee5a738950827548b55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eaea10310307e177c98d6b7cf9ee4bee = $(`<div id="html_eaea10310307e177c98d6b7cf9ee4bee" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_b4ae74fad7c67ee5a738950827548b55.setContent(html_eaea10310307e177c98d6b7cf9ee4bee);
+            
+        
+
+        marker_25c6be2a4f17a590021c76489ad35ec3.bindPopup(popup_b4ae74fad7c67ee5a738950827548b55)
+        ;
+
+        
+    
+    
+            marker_25c6be2a4f17a590021c76489ad35ec3.bindTooltip(
+                `<div>
+                     Wellness Center Park and Fitness Center PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa0175f3d99373585e9b3e69fcaf9d4c = L.marker(
+                [34.05232583, -118.2226705],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_da839c16025cc8c8db912e32cb34165c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_fa0175f3d99373585e9b3e69fcaf9d4c.setIcon(icon_da839c16025cc8c8db912e32cb34165c);
+        
+    
+        var popup_4780bcc1cb9de24fbc07790c362bd53e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b3e934edc6d3ecb47fa998399fd722e = $(`<div id="html_2b3e934edc6d3ecb47fa998399fd722e" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_4780bcc1cb9de24fbc07790c362bd53e.setContent(html_2b3e934edc6d3ecb47fa998399fd722e);
+            
+        
+
+        marker_fa0175f3d99373585e9b3e69fcaf9d4c.bindPopup(popup_4780bcc1cb9de24fbc07790c362bd53e)
+        ;
+
+        
+    
+    
+            marker_fa0175f3d99373585e9b3e69fcaf9d4c.bindTooltip(
+                `<div>
+                     Aliso Triangle PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47076ab38d580b5eff5c4d5128011574 = L.marker(
+                [34.03947563, -118.2104897],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_984708affb6979f429f77031951b5b07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_47076ab38d580b5eff5c4d5128011574.setIcon(icon_984708affb6979f429f77031951b5b07);
+        
+    
+        var popup_89804dcebc3c2ab9c31db800e78c1620 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd86720b39d5ee9527bb752ccc3f7970 = $(`<div id="html_dd86720b39d5ee9527bb752ccc3f7970" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_89804dcebc3c2ab9c31db800e78c1620.setContent(html_dd86720b39d5ee9527bb752ccc3f7970);
+            
+        
+
+        marker_47076ab38d580b5eff5c4d5128011574.bindPopup(popup_89804dcebc3c2ab9c31db800e78c1620)
+        ;
+
+        
+    
+    
+            marker_47076ab38d580b5eff5c4d5128011574.bindTooltip(
+                `<div>
+                     Roosevelt High School Pool PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3def7188f8526887fa4ff9a27d7963c = L.marker(
+                [34.04342025, -118.2235827],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_51219a0ac31c783c86a4bd3f0b1ba4b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "", "prefix": "glyphicon"}
+            );
+            marker_b3def7188f8526887fa4ff9a27d7963c.setIcon(icon_51219a0ac31c783c86a4bd3f0b1ba4b3);
+        
+    
+        var popup_4162c1640e81eaa441a57249d9583249 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5eb319e04863cd54d7ed8622d7b06cb = $(`<div id="html_a5eb319e04863cd54d7ed8622d7b06cb" style="width: 100.0%; height: 100.0%;">Boyle Heights </div>`)[0];
+                popup_4162c1640e81eaa441a57249d9583249.setContent(html_a5eb319e04863cd54d7ed8622d7b06cb);
+            
+        
+
+        marker_b3def7188f8526887fa4ff9a27d7963c.bindPopup(popup_4162c1640e81eaa441a57249d9583249)
+        ;
+
+        
+    
+    
+            marker_b3def7188f8526887fa4ff9a27d7963c.bindTooltip(
+                `<div>
+                     Aliso-Pico Recreation Center PARK_NAME: Boyle Heights 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0469cc0bbb072f4b470c6ef04adef4b2 = L.marker(
+                [34.10042046, -118.2941722],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_1f881b5c4f89ee86eb6bfd8a1c1e79d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0469cc0bbb072f4b470c6ef04adef4b2.setIcon(icon_1f881b5c4f89ee86eb6bfd8a1c1e79d9);
+        
+    
+        var popup_897e8be2c67feb8a1f0280670fb1be45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e689f7bff3ea727e1b9a8218174bf369 = $(`<div id="html_e689f7bff3ea727e1b9a8218174bf369" style="width: 100.0%; height: 100.0%;">Los Feliz</div>`)[0];
+                popup_897e8be2c67feb8a1f0280670fb1be45.setContent(html_e689f7bff3ea727e1b9a8218174bf369);
+            
+        
+
+        marker_0469cc0bbb072f4b470c6ef04adef4b2.bindPopup(popup_897e8be2c67feb8a1f0280670fb1be45)
+        ;
+
+        
+    
+    
+            marker_0469cc0bbb072f4b470c6ef04adef4b2.bindTooltip(
+                `<div>
+                     Barnsdall Park PARK_NAME: Los Feliz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57e201c55a84e4c8ca9a15f5053a5a0f = L.marker(
+                [34.13547266, -118.298554],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_84a679a358f20efb587f9b8a2fac078a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_57e201c55a84e4c8ca9a15f5053a5a0f.setIcon(icon_84a679a358f20efb587f9b8a2fac078a);
+        
+    
+        var popup_d43eb3de34501b8c69c90f87cf12f0b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71425595a2c8838e55625053d6a0c204 = $(`<div id="html_71425595a2c8838e55625053d6a0c204" style="width: 100.0%; height: 100.0%;">Los Feliz</div>`)[0];
+                popup_d43eb3de34501b8c69c90f87cf12f0b6.setContent(html_71425595a2c8838e55625053d6a0c204);
+            
+        
+
+        marker_57e201c55a84e4c8ca9a15f5053a5a0f.bindPopup(popup_d43eb3de34501b8c69c90f87cf12f0b6)
+        ;
+
+        
+    
+    
+            marker_57e201c55a84e4c8ca9a15f5053a5a0f.bindTooltip(
+                `<div>
+                     Griffith Park (City of Los Angeles) PARK_NAME: Los Feliz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd6d60ab6a986de9bf9cfc992cf7c7ba = L.marker(
+                [34.15441095, -118.3077203],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_9582951339fe6e9c7e3e8d8e82fab512 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd6d60ab6a986de9bf9cfc992cf7c7ba.setIcon(icon_9582951339fe6e9c7e3e8d8e82fab512);
+        
+    
+        var popup_eb8b3024f6c85134f5874e5cc12906f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d15839d6b9f082c429de0df1aafe12e = $(`<div id="html_2d15839d6b9f082c429de0df1aafe12e" style="width: 100.0%; height: 100.0%;">Los Feliz</div>`)[0];
+                popup_eb8b3024f6c85134f5874e5cc12906f8.setContent(html_2d15839d6b9f082c429de0df1aafe12e);
+            
+        
+
+        marker_cd6d60ab6a986de9bf9cfc992cf7c7ba.bindPopup(popup_eb8b3024f6c85134f5874e5cc12906f8)
+        ;
+
+        
+    
+    
+            marker_cd6d60ab6a986de9bf9cfc992cf7c7ba.bindTooltip(
+                `<div>
+                     Travel Town Museum PARK_NAME: Los Feliz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_897be2a10d3254679a41b070a48b936e = L.marker(
+                [34.06372964, -118.3568904],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_85f50893ff8d934154e5ac721ef38c1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_897be2a10d3254679a41b070a48b936e.setIcon(icon_85f50893ff8d934154e5ac721ef38c1e);
+        
+    
+        var popup_673bc89ae1ee524cfc1e7437a270b842 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_490df9b07f6a2013282ff9015fc105b2 = $(`<div id="html_490df9b07f6a2013282ff9015fc105b2" style="width: 100.0%; height: 100.0%;">FairFax</div>`)[0];
+                popup_673bc89ae1ee524cfc1e7437a270b842.setContent(html_490df9b07f6a2013282ff9015fc105b2);
+            
+        
+
+        marker_897be2a10d3254679a41b070a48b936e.bindPopup(popup_673bc89ae1ee524cfc1e7437a270b842)
+        ;
+
+        
+    
+    
+            marker_897be2a10d3254679a41b070a48b936e.bindTooltip(
+                `<div>
+                     Hancock Park PARK_NAME: FairFax
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_83a2ead4235578a5ee0caacee359750a = L.marker(
+                [34.07333388, -118.3549849],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_ef9c6bdd32ff2671cbfb24d7d602210b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_83a2ead4235578a5ee0caacee359750a.setIcon(icon_ef9c6bdd32ff2671cbfb24d7d602210b);
+        
+    
+        var popup_4a691be3ac97ed1dd9904f1d7b07c92c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_130a8de46c4722601eacd8e15cdfbab6 = $(`<div id="html_130a8de46c4722601eacd8e15cdfbab6" style="width: 100.0%; height: 100.0%;">FairFax</div>`)[0];
+                popup_4a691be3ac97ed1dd9904f1d7b07c92c.setContent(html_130a8de46c4722601eacd8e15cdfbab6);
+            
+        
+
+        marker_83a2ead4235578a5ee0caacee359750a.bindPopup(popup_4a691be3ac97ed1dd9904f1d7b07c92c)
+        ;
+
+        
+    
+    
+            marker_83a2ead4235578a5ee0caacee359750a.bindTooltip(
+                `<div>
+                     Pan Pacific Park PARK_NAME: FairFax
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6480adebaee9c969fbd7c299f02a7c43 = L.marker(
+                [34.08039635, -118.361323],
+                {}
+            ).addTo(map_0bb03ff46fc97614626358062f4bde13);
+        
+    
+            var icon_503522157bf3c54aba86b06b9deab317 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_6480adebaee9c969fbd7c299f02a7c43.setIcon(icon_503522157bf3c54aba86b06b9deab317);
+        
+    
+        var popup_c1cdd49b7279e08587678753165f3e26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c34b92adc57c27e5193b664fb305348 = $(`<div id="html_2c34b92adc57c27e5193b664fb305348" style="width: 100.0%; height: 100.0%;">FairFax</div>`)[0];
+                popup_c1cdd49b7279e08587678753165f3e26.setContent(html_2c34b92adc57c27e5193b664fb305348);
+            
+        
+
+        marker_6480adebaee9c969fbd7c299f02a7c43.bindPopup(popup_c1cdd49b7279e08587678753165f3e26)
+        ;
+
+        
+    
+    
+            marker_6480adebaee9c969fbd7c299f02a7c43.bindTooltip(
+                `<div>
+                     Rosewood Gardens Park PARK_NAME: FairFax
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
